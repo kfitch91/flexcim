@@ -1,0 +1,110 @@
+/*
+Theme Name: flexcim-theme
+Theme URI: www.flexcim.ca
+Author: Flexcim Manufacturing Services inc.
+Author URI: https://wordpress.org/
+Description: Flexcim Manufacturing incs theme for their 2021 website
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 8.0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: grid-layout, block-styles, black, yellow, grey, blue, bootstrap
+
+This theme, like WordPress, is licensed under the GPL.
+
+*/
+/* Index of CSS */
+
+/* Test */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ h1, h2, h3, h4, h5, h6 {
+     font-family: soleil, sans-serif;
+     font-weight: 700;
+     font-style: normal;
+ }
+
+ 
+
+ /* Heading */
+ /* Navbar */
+
+
+
+ .navbar {
+  font-family: soleil, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ }
+
+ .call-to-action{
+  color: #fcb912;
+  background-color: #5b6770;
+  padding-bottom: 0px;
+
+}
+
+
+ .navbar-text{
+     padding: 0px;
+     margin: 0px;
+     padding-bottom: 5px;
+ }
+
+ .header-logo{
+     max-width: 300px;
+ }
+ /* @media only screen and (max-width: 400px) {
+  .header-logo{
+      max-width: 240px;
+  }
+} */
+ .nav-item a{
+     color: #24394a;
+     font-size: 20px;
+ }
+
+ .nav-item a:hover{
+     color: #fcb912;
+ }
+
+ .navbar-toggler-icon{
+     background: #db34c3;
+ }
+
+ .menu-nav{
+   text-align: center;
+ }
+
+ 
+/* Hamburger Icon */
+ .hamburger-container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #24394a;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 { 
+    opacity: 0;
+  }
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  /* end of Hamburger Icon */
