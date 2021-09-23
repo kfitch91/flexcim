@@ -9,30 +9,49 @@
  */
 
  /**Table of Contents
-  * d
-  001 ---------- Theme CSS & JS
-  001.1 -------- Bootstrap
-  001.2 -------- CSS & JS
-  001.3 -------- Fonts
-  002 ---------- Menus & Navigational Bars
-  002.1 -------- Flexcim Menu
-  002.2 -------- bootstrap 5 wp_nav_menu walker
-  003 ---------- 
+  * 
+  001 ---------- Flexcim Theme Support
+  001.1 -------- Global Content Width
+  002 ---------- Theme CSS & JS
+  002.1 -------- Bootstrap
+  002.2 -------- CSS & JS
+  002.3 -------- Fonts
+  003 ---------- Menus & Navigational Bars
+  003.1 -------- Flexcim Menu
+  003.2 -------- bootstrap 5 wp_nav_menu walker
+  004 ---------- Footer
+  004.1--------- Copyright
+  005 ---------- Sidebar and Widgets
+  005.1 -------- Registering Sidebar
+  006 ---------- Logo
+  006.1 -------- Custom Logo
+
 
 
 
 
   */
-// 001 -- Theme CSS and JS
+  //001 -- Flexcim Theme Support
 
-//001.1 -- Bootstrap
+  //001.1 -- Global Content Width
+function flexcim_theme_support(){
+  //set content-width.
+  global $content_width;
+  if ( ! isset( $content_width) ) {
+    $content_width = 600;
+  }
+}
+
+// 002 -- Theme CSS and JS
+
+//002.1 -- Bootstrap
 function flexcim_bootstrap_scripts() {
     wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js' , array(), '3.3.1' );
     wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
     wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/assets/js/bootstrap.min.js' );
 }
 
-//001.2 -- Main Theme CSS & JS
+//002.2 -- Main Theme CSS & JS
 add_action( 'wp_enqueue_scripts', 'flexcim_bootstrap_scripts');
 
 function flexcim_theme_scripts() {
@@ -48,7 +67,7 @@ function flexcim_theme_scripts() {
 }
 add_action ( 'wp_enqueue_scripts', 'flexcim_theme_scripts');
 
-//001.3 -- Fonts
+//002.3 -- Fonts
 function flexcim_fonts_scripts() {
     wp_enqueue_style( 'font_css', get_template_directory_uri() .'https://use.typekit.net/sae8ufw.css' );
 }
@@ -56,15 +75,17 @@ function flexcim_fonts_scripts() {
 add_action( 'wp_enqueue_scripts', 'flexcim_fonts_scripts');
 
 //Menu & Navigational Bars
-//002.1 -- Flexcim Navigational Bar
+//003.1 -- Flexcim Navigational Bar
 function flexcim_menu() {
     register_nav_menu( 'flexcim-menu',__( 'Flexcim Menu' ));
 }
 
+
+
 add_action( 'init', 'flexcim_menu' );
 
 
-//002.2 -- bootstrap 5 wp_nav_menu walker
+//003.2 -- bootstrap 5 wp_nav_menu walker
 class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
 {
   private $current_item;
@@ -143,5 +164,79 @@ class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
 // register a new menu
 register_nav_menu('main-menu', 'Main menu');
 
-//003 -- 
+//004 -- Footer
+//004.1 -- Copyright
+
+function comicpress_copyright() {
+  global $wpdb;
+  $copyright_dates = $wpdb->get_results("
+  SELECT
+  YEAR(min(post_date_gmt)) AS firstdate,
+  YEAR(max(post_date_gmt)) AS lastdate
+  FROM
+  $wpdb->posts
+  WHERE
+  post_status = 'publish'
+  ");
+  $output = '';
+  if($copyright_dates) {
+  $copyright = "&copy; " . $copyright_dates[0]->firstdate;
+  if($copyright_dates[0]->firstdate != $copyright_dates[0]->lastdate) {
+  $copyright .= '-' . $copyright_dates[0]->lastdate;
+  }
+  $output = $copyright;
+  }
+  return $output;
+  }
+
+  //005 -- Sidebar and Widgets
+  //005.1 -- Registering Sidebar
+function flexcim_theme_widgets_init() {
+  register_sidebar( 
+    array(
+    'name'          =>__( 'Footer', 'Flexcim_theme' ),
+    'id'            => 'footer',
+    'description'   => __('Add widgets to appear in the footer'),
+    'before_widget' => '<div id="%1$s" class="footer-widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="address">',
+    'after_title'   => '</h3>',
+  ) );
+}
+add_action( 'widgets_init', 'flexcim_theme_widgets_init' );
+
+//006 -- Logo
+//006.1 -- Custom Logo
+
+function flexcim_custom_logo_setup() {
+  $defaults = array (
+    'height'        => 100,
+    'width'         => 400,
+    'flex-height'   => true,
+    'flex-width'    => true,
+
+  );
+  add_theme_support( 'custom-logo', $defaults );
+}
+add_action( 'after_setup_theme', 'flexcim_custom_logo_setup' );
+
+// 007 -- Backgound
+//007.1 -- Custom Background
+
+$defaults = array(
+	'default-color'          => '',
+	'default-image'          => '',
+	'default-repeat'         => 'repeat',
+	'default-position-x'     => 'left',
+  'default-position-y'     => 'top',
+  'default-size'           => 'auto',
+	'default-attachment'     => 'scroll',
+	'wp-head-callback'       => '_custom_background_cb',
+	'admin-head-callback'    => '',
+	'admin-preview-callback' => ''
+);
+add_theme_support( 'custom-background', $defaults );
+
+
+
 ?>

@@ -15,9 +15,28 @@ Tags: grid-layout, block-styles, black, yellow, grey, blue, bootstrap
 This theme, like WordPress, is licensed under the GPL.
 
 */
-/* Index of CSS */
+/* Index of CSS 
+001 ------------ Global Styles
+002 ------------ Navigation Bar
+002.1 ---------- Nav & Call to Action
+002.2 ---------- Header Logo
+002.3 ---------- Navbar Links
+002.4 ---------- Hamburger Icon
+003 ------------ 404
+004 ------------ Footer
+004.1 ---------- Footer Nav
+004.2 ---------- Copyright
+004.3 ---------- Footer Widget
+005 ------------ Pages
+005.1 ---------- Hero
+005.1.1 -------- Hero Backgound
+005.2 ---------- Page Content
 
-/* Test */
+
+*/
+
+/* 001 -- Global Styles*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,12 +46,7 @@ body {
      font-style: normal;
  }
 
- 
-
- /* Heading */
- /* Navbar */
-
-
+/* 002.1 -- Navbar & Call to action */
 
  .navbar {
   font-family: soleil, sans-serif;
@@ -47,21 +61,26 @@ body {
 
 }
 
-
  .navbar-text{
      padding: 0px;
      margin: 0px;
      padding-bottom: 5px;
+     margin-left: auto !important;
  }
+ 
+/* 002.2 -- Header Logo */
 
  .header-logo{
      max-width: 300px;
  }
- /* @media only screen and (max-width: 400px) {
-  .header-logo{
-      max-width: 240px;
-  }
-} */
+
+ /* 002.3 -- Navbar Links */
+
+ .menu-nav{
+  text-align: center;
+  /* margin-right: 60px; */
+}
+
  .nav-item a{
      color: #24394a;
      font-size: 20px;
@@ -74,13 +93,9 @@ body {
  .navbar-toggler-icon{
      background: #db34c3;
  }
-
- .menu-nav{
-   text-align: center;
- }
-
  
-/* Hamburger Icon */
+/* 002.4 -- Hamburger Icon */
+
  .hamburger-container {
     display: inline-block;
     cursor: pointer;
@@ -107,4 +122,113 @@ body {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
-  /* end of Hamburger Icon */
+
+  /*003 -- 404*/
+
+  .error {
+    text-align: center;
+    margin: 50px 50px 200px 50px;
+    padding: 50px ;
+    height: 200px;
+  }
+
+  .error h1 {
+    margin-bottom: 16px;
+  }
+
+  .error p{
+    margin-bottom: 16px;
+    font-weight: bold;  
+  }
+ /* 004 -- Footer */
+
+  footer {
+    font-family: soleil, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  footer, footer p {
+    margin-bottom: 0;
+  }
+  
+/* 004.1 -- Footer Nav */
+
+  .footer-nav {
+    background-color: #323232;
+
+  }
+
+  .footer-nav .footer-break {
+    
+    color: #fff;
+  }
+
+  .footer-nav .footer-break h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #fcb912;
+  }
+
+  .footer-break .footer-sitemap li{
+    list-style: none;
+    text-align: center;
+  }
+
+  .footer-break .footer-sitemap a{
+    color: #fff;
+  }
+
+  /* 004.2 -- Copyright */
+
+  .footer-copy{
+    background-color: #000;
+    text-align: center;
+
+  }
+
+  .footer-copy .copyright{
+    color: #fcb912;
+  }
+
+  /* 004.3 -- Footer widget */
+
+  .footer-widget{
+    padding-bottom: 20px;
+    padding-left: 50px;
+  }
+
+  /* 005 -- Pages */
+  /* 005.1 -- Hero */
+  
+  .hero h1 {
+    text-align: center;
+    position: relative;
+    top: 245px;
+  }
+
+  .hero{
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* 005.1.1 -- Hero Background */
+
+  /*use .page-id-# to call a specific page to add background img*/
+  .page-id-2 .about-background{
+    background-image: url("http://localhost/flexcim/wp-content/uploads/2021/09/edmonton.jpg");
+ 
+  }
+
+  .page-id-2 .about-background h1{
+    color: #fff;
+    text-shadow: 3px 3px #363636;
+  }
+
+  /* 005.2 -- Page Content */
+
+  .page-content{
+    margin: 35px auto;
+  }

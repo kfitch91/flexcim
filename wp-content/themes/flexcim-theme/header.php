@@ -26,8 +26,8 @@
     <?php wp_body_open(); ?>
     <div id="page" class="site">
         <nav class="navbar call-to-action "> <!--call to action-->
-            <div class="container d-flex flex-wrap">
-                <p class="navbar-text ms-auto">
+            <div class="container">
+                <p class="navbar-text ">
                     1(780)465-0109
                 </p>
             </div>
@@ -35,8 +35,8 @@
         
         <nav class="navbar navbar-expand-md">
             <div class="container d-flex">
-                <a class="navbar-brand" href="#">
-                    <img class="header-logo" src="http://localhost/flexcim/wp-content/uploads/2021/08/Flexcim_Logo_horz.png">
+                <a class="navbar-brand me-lg-auto" href="#">
+                    <img class="header-logo img-fluid" src="http://localhost/flexcim/wp-content/uploads/2021/08/Flexcim_Logo_horz.png">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#flexcim-menu" aria-controls="flexcim-menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span>
@@ -65,4 +65,6 @@
             </div>
         </nav>   
     </div>
+    <div id="content" class="site-content">
+   
 
