@@ -232,3 +232,16 @@ body {
   .page-content{
     margin: 35px auto;
   }
+
+  /* 005.3 -- Contact Page */
+  .contact-header {
+    text-align: center;
+  }
+
+  .address-heading {
+    margin-bottom: 20px;
+  }
+
+  .contact-address{
+    
+  }

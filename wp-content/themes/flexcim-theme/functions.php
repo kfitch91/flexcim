@@ -201,9 +201,39 @@ function flexcim_theme_widgets_init() {
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="address">',
     'after_title'   => '</h3>',
-  ) );
+  ));
 }
 add_action( 'widgets_init', 'flexcim_theme_widgets_init' );
+ 
+//broken function
+// function flexcim_theme_widgets_init() {
+  
+//   $my_sidebars = array(
+//   'name'          =>__( 'Footer', 'Flexcim_theme' ),
+//   'id'            => 'footer',
+//   'description'   => __('Add widgets to appear in the footer'),
+//   'before_widget' => '<div id="%1$s" class="footer-widget %2$s">',
+//   'after_widget'  => '</div>',
+//   'before_title'  => '<h3 class="address">',
+//   'after_title'   => '</h3>',
+// );
+//   $defaults = array(
+//     'name'           =>__( 'Contact', 'Flexcim_theme' ),
+//     'id'             =>'contact-widget',
+//     'description'    =>__('Add widgets to appear in the contact form'),
+//     'before_widget'  =>'<div id="%1$s" class="contact-address %2$s">', 
+//     'after_widget'   =>'</div>',
+//     'before_title'   =>'<h3 class="contact-heading">',
+//     'after_title'    =>'</h3>'
+//   );
+
+//   foreac( $my_sidebars  as $sidebar ) {
+//     $args = wp_parse_args( $sidebar, $defaults );
+//     register_sidebar ( $args );
+//   }
+// );
+// }
+// add_action( 'widgets_init', 'flexcim_theme_widgets_init' );
 
 //006 -- Logo
 //006.1 -- Custom Logo
