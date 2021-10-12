@@ -236,12 +236,14 @@ body {
   /* 005.3 -- Contact Page */
   .contact-header {
     text-align: center;
+    margin-bottom: 50px;
   }
 
   .address-heading {
     margin-bottom: 20px;
   }
 
-  .contact-address{
-    
-  }
+  /*005.3.2 -- Forminator*/
+  /* .forminator-row {
+    margin-bottom:10px;
+  } */

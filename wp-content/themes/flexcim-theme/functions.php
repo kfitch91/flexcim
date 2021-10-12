@@ -25,7 +25,9 @@
   005.1 -------- Registering Sidebar
   006 ---------- Logo
   006.1 -------- Custom Logo
-
+  007 ---------- Backgound
+  007.1 -------- Custom Backgound
+  008 ---------- Custom Post Type
 
 
 
@@ -267,6 +269,36 @@ $defaults = array(
 );
 add_theme_support( 'custom-background', $defaults );
 
+// 008  - Custom Post type
 
+
+function flexcim_custom_post_type() {
+  register_post_type('flexcim_service',
+      array(
+          'labels'      => array(
+              'name'          => __('Services', 'textdomain'),
+              'singular_name' => __('Service', 'textdomain'),
+          ),
+              'public'      => true,
+              'has_archive' => false,
+              'rewrite'     => array('slug' => 'services'),
+              'show_in_rest'  => true,
+      )
+  );
+  register_post_type('flexcim_resource',
+    array(
+          'labels'      => array(
+              'name'      =>__('resources', 'textdomain'),
+              'singular_name'   =>__('resource', 'textdomain'),
+          ),
+              'public'    => true,
+              'has_archive'   => true,
+              'rewrite'     => array('slug' => 'resources'),
+              'show_in_rest'  => true,
+      )
+  );
+}
+
+add_action('init', 'flexcim_custom_post_type');
 
 ?>
