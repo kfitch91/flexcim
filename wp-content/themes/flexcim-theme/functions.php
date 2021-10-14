@@ -278,12 +278,22 @@ function flexcim_custom_post_type() {
           'labels'      => array(
               'name'          => __('Services', 'textdomain'),
               'singular_name' => __('Service', 'textdomain'),
+            ),
+          'public'        => true,
+          'has_archive'   => false,
+          'rewrite'       => array('slug' => 'services'),
+          'show_in_rest'  => true, //this allows the guttenburg editor to show
+          'supports'      => array(
+            'title',
+            'page-attributes',
+            'post-formats',
+            'excerpt',
+            'custom-fields',
+            'editor',
+            'template',
           ),
-              'public'      => true,
-              'has_archive' => false,
-              'rewrite'     => array('slug' => 'services'),
-              'show_in_rest'  => true,
       )
+
   );
   register_post_type('flexcim_resource',
     array(
@@ -291,11 +301,23 @@ function flexcim_custom_post_type() {
               'name'      =>__('resources', 'textdomain'),
               'singular_name'   =>__('resource', 'textdomain'),
           ),
-              'public'    => true,
-              'has_archive'   => true,
-              'rewrite'     => array('slug' => 'resources'),
-              'show_in_rest'  => true,
+            'public'        => true,
+            'has_archive'   => true,
+            'rewrite'       => array('slug' => 'resources'),
+            'hierarchical'  => true,
+            'show_in_rest'  => true,
+            'supports'      => array(
+              'title',
+              'editor',
+              'thumbnail',
+              'revisions',
+              'page-attributes',
+              'post-formats',
+              'excerpt',
+              'custom-fields',
+            ),
       )
+
   );
 }
 
