@@ -12,6 +12,7 @@
   * 
   001 ---------- Flexcim Theme Support
   001.1 -------- Global Content Width
+  001.2 -------- Featured Image Support
   002 ---------- Theme CSS & JS
   002.1 -------- Bootstrap
   002.2 -------- CSS & JS
@@ -28,6 +29,7 @@
   007 ---------- Backgound
   007.1 -------- Custom Backgound
   008 ---------- Custom Post Type
+  009 ---------- Excerpts
 
 
 
@@ -43,6 +45,16 @@ function flexcim_theme_support(){
     $content_width = 600;
   }
 }
+
+// 001.2 -- Featured image/thumbnail support
+add_theme_support( 'post-thumbnails', array( 
+    'flexcim_service',
+    'flexcim_resource'
+    )
+ );
+
+ //001.3 -- Thumbnail size
+set_post_thumbnail_size( 500, 500 );
 
 // 002 -- Theme CSS and JS
 
@@ -290,7 +302,7 @@ function flexcim_custom_post_type() {
             'excerpt',
             'custom-fields',
             'editor',
-            'template',
+            'thumbnail',
           ),
       )
 
@@ -298,11 +310,11 @@ function flexcim_custom_post_type() {
   register_post_type('flexcim_resource',
     array(
           'labels'      => array(
-              'name'      =>__('resources', 'textdomain'),
-              'singular_name'   =>__('resource', 'textdomain'),
+              'name'      =>__('Resources', 'textdomain'),
+              'singular_name'   =>__('Resource', 'textdomain'),
           ),
             'public'        => true,
-            'has_archive'   => true,
+            'has_archive'   => false, //When set to true, the Resource page will only display when permalink is set to Numeric.
             'rewrite'       => array('slug' => 'resources'),
             'hierarchical'  => true,
             'show_in_rest'  => true,
@@ -322,5 +334,13 @@ function flexcim_custom_post_type() {
 }
 
 add_action('init', 'flexcim_custom_post_type');
+
+// 009 - Excerpts
+
+function new_excerpt_more($more) {
+  global $post;
+  return '... <a href="'. get_permalink($post->ID) .'">' .  'Read More &raquo;' .  '</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 
 ?>

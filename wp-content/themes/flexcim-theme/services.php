@@ -28,7 +28,8 @@ query_posts(array(
                         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                         <h2><?php the_title(); ?></h2>
                         <div>
-                            <?php the_content(); ?>
+                            <?php the_post_thumbnail(); ?>
+                            <?php the_excerpt(); ?>
                         </div>
                         <?php endwhile; ?>
                         <?php wp_reset_postdata(); ?>
