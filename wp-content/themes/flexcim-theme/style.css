@@ -39,12 +39,20 @@ This theme, like WordPress, is licensed under the GPL.
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
  h1, h2, h3, h4, h5, h6 {
      font-family: soleil, sans-serif;
      font-weight: 700;
      font-style: normal;
  }
+
+ html, body {
+  height: 100%;
+ }
+ 
 
 /* 002.1 -- Navbar & Call to action */
 
@@ -243,7 +251,7 @@ body {
     margin-bottom: 20px;
   }
 
-  /*005.3.2 -- Forminator*/
-  /* .forminator-row {
-    margin-bottom:10px;
-  } */
+/*005.4 -- Services & Resources*/
+.service-posts{
+  margin: 20px 0;
+}

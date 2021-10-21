@@ -34,7 +34,7 @@
     </footer>
     <footer class="footer mt-auto py-3 footer-copy">  
         <div class="container">
-            <p class="copyright"><?php echo comicpress_copyright(); ?></p>
+            <p class="copyright"><?php echo comicpress_copyright(); ?> - Flexcim Manufacturing Services Inc.</p>
         </div> 
         
     </footer>

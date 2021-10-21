@@ -54,7 +54,7 @@ add_theme_support( 'post-thumbnails', array(
  );
 
  //001.3 -- Thumbnail size
-set_post_thumbnail_size( 500, 500 );
+set_post_thumbnail_size( 250, 250 );
 
 // 002 -- Theme CSS and JS
 
@@ -339,8 +339,10 @@ add_action('init', 'flexcim_custom_post_type');
 
 function new_excerpt_more($more) {
   global $post;
-  return '... <a href="'. get_permalink($post->ID) .'">' .  'Read More &raquo;' .  '</a>';
+  return '... <br><br><a class="excerpt-link" href="'. get_permalink($post->ID) .'">' .  'Read More' .  '</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
+
+
 
 ?>
