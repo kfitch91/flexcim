@@ -9,7 +9,7 @@ query_posts(array(
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 hero services-background">
-                <?php the_title( '<h1 class="hero-title">', '</h1>' ) ?>
+                <?php the_title( '<h1 class="hero-title">', '</h1>' ); ?>
             </div>
         </div>
     </div>
@@ -17,7 +17,7 @@ query_posts(array(
     <?php 
         $args = array(
             'post_type'     =>      'Flexcim_service',
-            'posts_per_page'    => 3
+            'posts_per_page'    =>  3
             );
             $the_query  = new WP_Query( $args ); ?>
 
@@ -49,7 +49,8 @@ query_posts(array(
     </div>
     
 </main>
+
 <?php  
 get_footer();
 
-?>
+

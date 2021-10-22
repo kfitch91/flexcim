@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="hero single-background">
-                        <?php the_title( '<h1 class="hero-title">', '</h1>') ?>
+                        <?php the_title( '<h1 class="hero-title">', '</h1>'); ?>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <?php the_post_thumbnail(); ?>
-                    <?php the_content() ?>
+                    <?php the_content(); ?>
                 </div>
             </div>
         </div>

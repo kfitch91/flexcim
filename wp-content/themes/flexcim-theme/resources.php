@@ -9,7 +9,7 @@ query_posts(array(
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 hero resources-background">
-                <?php the_title( '<h1 class="hero-title">', '</h1>' ) ?>
+                <?php the_title( '<h1 class="hero-title">', '</h1>' ); ?>
             </div>
         </div>
     </div>

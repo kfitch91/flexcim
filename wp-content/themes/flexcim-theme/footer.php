@@ -7,7 +7,7 @@
 
 <?php wp_footer(); ?>
 
-    <footer class="footer  mt-auto py-3 footer-nav">
+    <footer class="footer  mt-auto pt-3 footer-nav">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-4 footer-break">
