@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-4 footer-break">
                     <h3>Contact Us</h3>
-                    <?php get_sidebar( 'footer' ); ?>
+                    <?php get_sidebar('footer'); ?>
                 </div>
                 <div class="col-sm-12 col-md-4 footer-break">
                     <h3>Sitemap</h3>
