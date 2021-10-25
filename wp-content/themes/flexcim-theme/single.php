@@ -10,6 +10,7 @@
  get_header();
  ?>
 
+<!-- Oct 25: Both the Resources and Services Custom Post Type are reading this file instead of the single-flexcim_services.php file and the single-flexcim_resources.php file-->
 
 <main class="post">
     <?php if(have_posts()) : the_post(); ?>
@@ -19,9 +20,9 @@
                 <div class="col-md-12">
                     <div class="hero single-background">
                         <?php the_title( '<h1 class="hero-title">', '</h1>'); ?>
-                    </div>
-                </div>
-            </div>
+                    </div><!-- End of Hero -->
+                </div><!--End of Col -->
+            </div> <!-- End of Row -->
         </div>
         <div class="container page-content">
             <div class="row">
@@ -29,8 +30,8 @@
                     <?php the_post_thumbnail(); ?>
                     <?php the_content(); ?>
                 </div>
-            </div>
-        </div>
+            </div><!-- End of Row -->
+        </div><!-- End of Container -->
     </div>
     <?php endif; ?>
 </main>
