@@ -27,10 +27,13 @@ This theme, like WordPress, is licensed under the GPL.
 004.1 ---------- Footer Nav
 004.2 ---------- Copyright
 004.3 ---------- Footer Widget
-005 ------------ Pages
+005 ------------ Pages / Posts
 005.1 ---------- Hero
 005.1.1 -------- Hero Backgound
 005.2 ---------- Page Content
+005.3 ---------- Contact Page
+005.4 ---------- Services and Resources
+005.5 ---------- Home Page
 
 
 */
@@ -44,9 +47,9 @@ body {
   justify-content: space-between;
 }
  h1, h2, h3, h4, h5, h6 {
-     font-family: soleil, sans-serif;
-     font-weight: 700;
-     font-style: normal;
+  font-family: soleil, sans-serif;
+  font-weight: 700;
+  font-style: normal;
  }
 
  html, body {
@@ -207,7 +210,7 @@ body {
     padding-left: 50px;
   }
 
-  /* 005 -- Pages */
+  /* 005 -- Pages / Posts */
   /* 005.1 -- Hero */
   
   .hero h1 {
@@ -256,7 +259,28 @@ body {
   margin: 20px 0;
 }
 
+/* 005.5 -- Home Page */
+.video-header {
+  margin-bottom: 50px;
+}
 .shopify {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.home-heading h3{
+  text-align: center;
+  padding: 20px;
+}
+.shopify-buy-frame {
+  margin: 0 auto;
+}
+
+
+.about-home-img {
+  margin: 0 auto;
+}
+
+.about-section{
+  margin-top: 50px; 
 }
