@@ -28,9 +28,9 @@
     <div id="page" class="site">
         <nav class="navbar call-to-action "> <!--call to action-->
             <div class="container">
-                <p class="navbar-text ">
+                <a class="navbar-text" href="tel:+1-780-465-0109">
                     1(780)465-0109
-                </p>
+                </a>     
             </div>
         </nav>
         

@@ -46,216 +46,250 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
- h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: soleil, sans-serif;
   font-weight: 700;
   font-style: normal;
- }
+}
 
- html, body {
+html,
+body {
   height: 100%;
- }
- 
+}
 
 /* 002.1 -- Navbar & Call to action */
 
- .navbar {
+.navbar {
   font-family: soleil, sans-serif;
   font-weight: 500;
   font-style: normal;
- }
+}
 
- .call-to-action{
+.call-to-action {
   color: #fcb912;
   background-color: #5b6770;
   padding-bottom: 0px;
-
 }
 
- .navbar-text{
-     padding: 0px;
-     margin: 0px;
-     padding-bottom: 5px;
-     margin-left: auto !important;
- }
- 
+.navbar-text {
+  text-decoration: none;
+  color: inherit;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 5px;
+  margin-left: auto !important;
+}
+
+.navbar-text:hover {
+  color: inherit;
+}
+
 /* 002.2 -- Header Logo */
 
- .header-logo{
-     max-width: 300px;
- }
+.header-logo {
+  max-width: 300px;
+}
 
- /* 002.3 -- Navbar Links */
+/* 002.3 -- Navbar Links */
 
- .menu-nav{
+.menu-nav {
   text-align: center;
   /* margin-right: 60px; */
 }
 
- .nav-item a{
-     color: #24394a;
-     font-size: 20px;
- }
+.nav-item a {
+  color: #24394a;
+  font-size: 20px;
+}
 
- .nav-item a:hover{
-     color: #fcb912;
- }
+.nav-item a:hover {
+  color: #fcb912;
+}
 
- .navbar-toggler-icon{
-     background: #db34c3;
- }
- 
+.navbar-toggler-icon {
+  background: #db34c3;
+}
+
 /* 002.4 -- Hamburger Icon */
 
- .hamburger-container {
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #24394a;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 { 
-    opacity: 0;
-  }
-  
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-  }
+.hamburger-container {
+  display: inline-block;
+  cursor: pointer;
+}
 
-  /*003 -- 404*/
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #24394a;
+  margin: 6px 0;
+  transition: 0.4s;
+}
 
-  .error {
-    text-align: center;
-    margin: 50px 50px 200px 50px;
-    padding: 50px ;
-    height: 200px;
-  }
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
 
-  .error h1 {
-    margin-bottom: 16px;
-  }
+.change .bar2 {
+  opacity: 0;
+}
 
-  .error p{
-    margin-bottom: 16px;
-    font-weight: bold;  
-  }
- /* 004 -- Footer */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
 
-  footer {
-    font-family: soleil, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
+/*003 -- 404*/
 
-  footer, footer p {
-    margin-bottom: 0;
-  }
-  
+.error {
+  text-align: center;
+  margin: 50px 50px 200px 50px;
+  padding: 50px;
+  height: 200px;
+}
+
+.error h1 {
+  margin-bottom: 16px;
+}
+
+.error p {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+/* 004 -- Footer */
+
+footer {
+  font-family: soleil, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+footer,
+footer p {
+  margin-bottom: 0;
+}
+
 /* 004.1 -- Footer Nav */
 
-  .footer-nav {
-    background-color: #323232;
+.footer-nav {
+  background-color: #323232;
+}
 
-  }
+.footer-nav .footer-break {
+  color: #fff;
+}
 
-  .footer-nav .footer-break {
-    
-    color: #fff;
-  }
+.footer-nav .footer-break h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #fcb912;
+}
 
-  .footer-nav .footer-break h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    color: #fcb912;
-  }
+.footer-break .footer-sitemap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-  .footer-break .footer-sitemap li{
-    list-style: none;
-    text-align: center;
-  }
+.footer-break .footer-sitemap ul {
+  padding-left: 50px;
+}
 
-  .footer-break .footer-sitemap a{
-    color: #fff;
-  }
+.footer-break .footer-sitemap li {
+  list-style: none;
+  text-align: center;
+}
 
-  /* 004.2 -- Copyright */
+.footer-break .footer-sitemap a {
+  color: #fff;
+}
 
-  .footer-copy{
-    background-color: #000;
-    text-align: center;
+.footer-right {
+  margin-top: 20px;
+}
 
-  }
+/* 004.2 -- Copyright */
 
-  .footer-copy .copyright{
-    color: #fcb912;
-  }
+.footer-copy {
+  background-color: #000;
+  text-align: center;
+}
 
-  /* 004.3 -- Footer widget */
+.footer-copy .copyright {
+  color: #fcb912;
+}
 
-  .footer-widget{
-    padding-bottom: 20px;
-    padding-left: 50px;
-  }
+/* 004.3 -- Footer widget */
 
-  /* 005 -- Pages / Posts */
-  /* 005.1 -- Hero */
-  
-  .hero h1 {
-    text-align: center;
-    position: relative;
-    top: 245px;
-  }
+/* 005 -- Pages / Posts */
+/* 005.1 -- Hero */
 
-  .hero{
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-  }
+.hero h1 {
+  text-align: center;
+  position: relative;
+  top: 245px;
+}
+.footer-widget {
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
 
-  /* 005.1.1 -- Hero Background */
+/* 005 -- Pages */
+/* 005.1 -- Hero */
 
-  /*use .page-id-# to call a specific page to add background img*/
-  .page-id-2 .about-background{
-    background-image: url("http://localhost/flexcim/wp-content/uploads/2021/09/edmonton.jpg");
- 
-  }
+/* 005 -- Pages / Posts */
+/* 005.1 -- Hero */
 
-  .page-id-2 .about-background h1{
-    color: #fff;
-    text-shadow: 3px 3px #363636;
-  }
+.hero h1 {
+  text-align: center;
+  position: relative;
+  top: 245px;
+}
 
-  /* 005.2 -- Page Content */
+.hero {
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
 
-  .page-content{
-    margin: 35px auto;
-  }
+/* 005.1.1 -- Hero Background */
 
-  /* 005.3 -- Contact Page */
-  .contact-header {
-    text-align: center;
-    margin-bottom: 50px;
-  }
+/*use .page-id-# to call a specific page to add background img*/
+.page-id-2 .about-background {
+  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/09/edmonton.jpg");
+}
 
-  .address-heading {
-    margin-bottom: 20px;
-  }
+.page-id-2 .about-background h1 {
+  color: #fff;
+  text-shadow: 3px 3px #363636;
+}
+
+/* 005.2 -- Page Content */
+
+.page-content {
+  margin: 35px auto;
+}
+
+/* 005.3 -- Contact Page */
+.contact-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.address-heading {
+  margin-bottom: 20px;
+}
 
 /*005.4 -- Services & Resources*/
-.service-posts{
+.service-posts {
   margin: 20px 0;
 }
 
@@ -268,7 +302,7 @@ body {
   margin-bottom: 50px;
 }
 
-.home-heading h3{
+.home-heading h3 {
   text-align: center;
   padding: 20px;
 }
@@ -276,7 +310,21 @@ body {
   margin: 0 auto;
 }
 
+.about-section{
+  margin: 50px auto;
+}
+
+<<<<<<< HEAD
 
 
 
 
+=======
+.about-home-img {
+  margin: 0 auto;
+}
+
+.about-section {
+  margin-top: 50px;
+}
+>>>>>>> fe742310070787fea1bb90989af24ccd1014137f
