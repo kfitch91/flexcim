@@ -46,6 +46,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+<<<<<<< HEAD
 h1,
 h2,
 h3,
@@ -56,6 +57,13 @@ h6 {
   font-weight: 700;
   font-style: normal;
 }
+=======
+ h1, h2, h3, h4, h5, h6 {
+  font-family: soleil, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+ }
+>>>>>>> b969ddb3929c62c62b637ef3c8d0f692b82cca27
 
 html,
 body {
@@ -245,11 +253,22 @@ footer p {
 /* 005 -- Pages */
 /* 005.1 -- Hero */
 
+<<<<<<< HEAD
 .hero h1 {
   text-align: center;
   position: relative;
   top: 245px;
 }
+=======
+  /* 005 -- Pages / Posts */
+  /* 005.1 -- Hero */
+  
+  .hero h1 {
+    text-align: center;
+    position: relative;
+    top: 245px;
+  }
+>>>>>>> b969ddb3929c62c62b637ef3c8d0f692b82cca27
 
 .hero {
   height: 60vh;
@@ -299,7 +318,11 @@ footer p {
   margin-bottom: 50px;
 }
 
+<<<<<<< HEAD
 .home-heading h3 {
+=======
+.home-heading h3{
+>>>>>>> b969ddb3929c62c62b637ef3c8d0f692b82cca27
   text-align: center;
   padding: 20px;
 }
@@ -307,10 +330,20 @@ footer p {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b969ddb3929c62c62b637ef3c8d0f692b82cca27
 .about-home-img {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .about-section {
   margin-top: 50px;
 }
+=======
+.about-section{
+  margin-top: 50px; 
+}
+>>>>>>> b969ddb3929c62c62b637ef3c8d0f692b82cca27
