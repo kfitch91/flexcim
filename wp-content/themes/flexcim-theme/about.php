@@ -6,6 +6,7 @@ Template Name: About
 get_header();
 
 ?>
+<!-- Oct 25: Wordpress is still not recognizing the custom post type, and is calling the single.php file to read the post.-->
 <main class="page">
     <div class="container-fluid">
         <div class="row">
