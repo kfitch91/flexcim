@@ -38,6 +38,39 @@ C/O https://placeholder.com/" alt="placeholder">
             <div class="col-md-12 home-heading">
                 <h3>Services</h3>
             </div>
+            <div class="col-md-4 col-sm-12">
+            <?php echo do_shortcode('[oxilab_flip_box  id="2"]'); ?>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <!--Pure HTML + CSS No Plugin-->
+                <!--https://nicolaskadis.info/posts/pure-css-flip-cards-using-bootstrap-4-and-css-grid-no-js-->
+                <div class="card-container">
+                    <div class="card-flip">
+                        <div class="front">
+                            <!-- card content -->
+                            <h4>Service #2</h4>
+                        </div>
+                        <div class="back">
+                            <p>I'm baby tousled air plant lomo forage jean shorts street art portland thundercats ramps raw denim distillery food truck semiotics crucifix vape.</p>
+                            <p><a href="#">Link</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h4>Service #3</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Test</h4>
+                            <p>Chicharrones post-ironic synth, taiyaki waistcoat blog lyft neutra vice prism disrupt vegan authentic kombucha.</p>
+                            <p><a href="#">Test Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -514,6 +547,15 @@ C/O https://placeholder.com/" alt="placeholder">
         <div class="row">
             <div class="col-md-12 home-heading">
                 <h3>Resources</h3>
+            </div>
+            <div class="col-md-4 col-sm-12">
+            <?php echo do_shortcode('[oxilab_flip_box  id="2"]'); ?>
+            </div>
+            <div class="col-md-4 col-sm-12">
+            <?php echo do_shortcode('[oxilab_flip_box  id="2"]'); ?>
+            </div>
+            <div class="col-md-4 col-sm-12">
+            <?php echo do_shortcode('[oxilab_flip_box  id="2"]'); ?>
             </div>
         </div>
     </div>

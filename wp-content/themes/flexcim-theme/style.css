@@ -314,12 +314,6 @@ footer p {
   margin: 50px auto;
 }
 
-<<<<<<< HEAD
-
-
-
-
-=======
 .about-home-img {
   margin: 0 auto;
 }
@@ -327,4 +321,83 @@ footer p {
 .about-section {
   margin-top: 50px;
 }
->>>>>>> fe742310070787fea1bb90989af24ccd1014137f
+
+.resource-section {
+  margin-bottom: 50px;
+}
+
+/* Homepage card flip CSS */
+.card-container {
+  perspective: 700px;
+  background-color: crimson;
+  width: 100%;
+  height: 100%;
+}
+
+.card-flip, .card-container {
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.back {
+  transform: rotateY(-180deg);
+}
+
+.back p{
+  padding: 20px;
+}
+
+.card-container:hover .card-flip {
+  transform: rotateY(180deg);
+}
+
+.front {
+  background-color: lightskyblue;
+  height: 100%;
+}
+
+/* W3 Schools Flip Box */
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover  .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back  {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /*  Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+   color: white;
+   transform: rotateY(180deg);
+}
