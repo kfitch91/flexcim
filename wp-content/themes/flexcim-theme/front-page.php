@@ -33,26 +33,39 @@ C/O https://placeholder.com/" alt="placeholder">
             </div>
         </div>
     </div>
+    <div class="container-fluid heading-block">
+        <h3>Services</h3>
+
+    </div>
     <div class="container service-section">
+
         <div class="row">
-            <div class="col-md-12 home-heading">
-                <h3>Services</h3>
-            </div>
             <div class="col-md-4 col-sm-12">
-            <?php echo do_shortcode('[oxilab_flip_box  id="2"]'); ?>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <!--Pure HTML + CSS No Plugin-->
-                <!--https://nicolaskadis.info/posts/pure-css-flip-cards-using-bootstrap-4-and-css-grid-no-js-->
-                <div class="card-container">
-                    <div class="card-flip">
-                        <div class="front">
-                            <!-- card content -->
-                            <h4>Service #2</h4>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h4 class="flip-heading-front">Service #1</h4>
                         </div>
-                        <div class="back">
-                            <p>I'm baby tousled air plant lomo forage jean shorts street art portland thundercats ramps raw denim distillery food truck semiotics crucifix vape.</p>
-                            <p><a href="#">Link</a></p>
+                        <div class="flip-card-back">
+                            <h4 class="flip-heading-back">Service #1</h4>
+                            <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
+
+                            <p><a href="#">Learn More...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 ">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h4 class="flip-heading-front">Service #2</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <h4 class="flip-heading-back">Service #2</h4>
+                            <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
+
+                            <p><a href="#">Learn More...</a>
                         </div>
                     </div>
                 </div>
@@ -61,26 +74,32 @@ C/O https://placeholder.com/" alt="placeholder">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <h4>Service #3</h4>
+                            <h4 class="flip-heading-front">Service #3</h4>
                         </div>
                         <div class="flip-card-back">
-                            <h4>Test</h4>
-                            <p>Chicharrones post-ironic synth, taiyaki waistcoat blog lyft neutra vice prism disrupt vegan authentic kombucha.</p>
-                            <p><a href="#">Test Link</a>
+                            <h4 class="flip-heading-back">Service #3</h4>
+                            <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
+
+                            <p><a href="#">Learn More...</a>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
+            
+        </div><!--End of Row-->
     </div>
- 
+    <div class="container-fluid heading-block">
+        <h3>Store</h3>
+
+    </div>
     <div class="container shopify">
+        
         <div class="row">
-            <div class="col-md-12 home-heading">
-                <h3>Store</h3>
+            <div class="col-sm-12 shopify-summary">
+                <p>Palo santo deep v echo park, trust fund air plant wolf copper mug pitchfork austin bushwick sriracha keytar la croix kogi butcher. Biodiesel air plant 8-bit, helvetica pug seitan craft beer austin try-hard poutine gentrify tattooed gluten-free. Listicle humblebrag succulents, shaman fixie hot chicken affogato subway tile venmo kinfolk green juice readymade. Vice cred meggings lomo occupy semiotics readymade 90's trust fund health goth brooklyn etsy. Af coloring book shaman chambray vegan. Beard waistcoat brunch vinyl glossier etsy heirloom. Leggings cronut af cliche taxidermy lo-fi.</p>
             </div>
-                
+        </div>
+        <div class="row">  
             <div class="col-md-4 col-sm-12">
                 <div id='product-component-1635275951162'></div>
                 <script type="text/javascript">
@@ -543,11 +562,12 @@ C/O https://placeholder.com/" alt="placeholder">
             </div>
         </div>
     </div>
+    <div class="container-fluid heading-block">
+        <h3>Resources</h3>
+
+    </div>
     <div class="container resource-section">
         <div class="row">
-            <div class="col-md-12 home-heading">
-                <h3>Resources</h3>
-            </div>
             <div class="col-md-4 col-sm-12">
             <?php echo do_shortcode('[oxilab_flip_box  id="2"]'); ?>
             </div>
