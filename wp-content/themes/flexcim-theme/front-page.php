@@ -17,29 +17,33 @@ get_header()
         <!-- /wp:paragraph --></div>
         <!-- /wp:nk/awb -->
     </div>
-    <div class="container about-section">
+    <div class="container-fluid about-section">
         <div class="row">
             <div class="col-md-12 home-heading">
                 <h3>About</h3>
             </div>
             <div class="col-md-5 col-sm-12">
-                <img class="about-home-img" src="https://via.placeholder.com/350
+                <div class="about-home-bg-img"></div>
+                <!-- <img class="about-home-img" src="https://via.placeholder.com/350
 
-C/O https://placeholder.com/" alt="placeholder">
+C/O https://placeholder.com/" alt="placeholder"> -->
             </div>
-            <div class="col-md-7 col-sm-12">
+            <div class="col-md-7 col-sm-12 home-content">
                 <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan. Coloring book pok pok hexagon pork belly cardigan celiac artisan pinterest brunch single-origin coffee humblebrag pabst unicorn. Asymmetrical drinking vinegar hashtag cronut readymade polaroid lyft DIY ennui. Everyday carry pour-over williamsburg fam, heirloom cronut disrupt unicorn pitchfork banh mi. Fam raclette biodiesel, leggings man bun edison bulb shabby chic. Authentic mlkshk gluten-free cold-pressed typewriter echo park bushwick truffaut mustache four loko viral chillwave poke.</p>
                 <p><a href="#">Learn More</a>
             </div>
         </div>
     </div>
-    <div class="container-fluid heading-block">
+    <!-- <div class="container-fluid heading-block">
         <h3>Services</h3>
 
-    </div>
-    <div class="container service-section">
+    </div> -->
+    <div class="container-fluid service-section">
 
         <div class="row">
+            <div class="col-md-12 home-heading">
+            <h3>Services</h3>
+            </div>
             <div class="col-md-4 col-sm-12">
                 <div class="flip-card">
                     <div class="flip-card-inner">
@@ -88,19 +92,23 @@ C/O https://placeholder.com/" alt="placeholder">
             
         </div><!--End of Row-->
     </div>
-    <div class="container-fluid heading-block">
-        <h3>Store</h3>
+    <!-- <div class="container-fluid heading-block">
+        
 
-    </div>
-    <div class="container shopify">
+    </div> -->
+    <div class="container-fluid shopify">
         
         <div class="row">
-            <div class="col-sm-12 shopify-summary">
+            <div class="col-sm-12 home-heading">
+            <h3>Store</h3>
+            </div>
+            <div class="col-sm-12 col-md-7 shopify-summary home-content">
                 <p>Palo santo deep v echo park, trust fund air plant wolf copper mug pitchfork austin bushwick sriracha keytar la croix kogi butcher. Biodiesel air plant 8-bit, helvetica pug seitan craft beer austin try-hard poutine gentrify tattooed gluten-free. Listicle humblebrag succulents, shaman fixie hot chicken affogato subway tile venmo kinfolk green juice readymade. Vice cred meggings lomo occupy semiotics readymade 90's trust fund health goth brooklyn etsy. Af coloring book shaman chambray vegan. Beard waistcoat brunch vinyl glossier etsy heirloom. Leggings cronut af cliche taxidermy lo-fi.</p>
             </div>
-        </div>
-        <div class="row">  
-            <div class="col-md-4 col-sm-12">
+            <!-- <div class="col-sm-12 ">
+                <p>Palo santo deep v echo park, trust fund air plant wolf copper mug pitchfork austin bushwick sriracha keytar la croix kogi butcher. Biodiesel air plant 8-bit, helvetica pug seitan craft beer austin try-hard poutine gentrify tattooed gluten-free. Listicle humblebrag succulents, shaman fixie hot chicken affogato subway tile venmo kinfolk green juice readymade. Vice cred meggings lomo occupy semiotics readymade 90's trust fund health goth brooklyn etsy. Af coloring book shaman chambray vegan. Beard waistcoat brunch vinyl glossier etsy heirloom. Leggings cronut af cliche taxidermy lo-fi.</p>
+            </div> -->
+            <div class="col-sm-12 col-md-5">
                 <div id='product-component-1635275951162'></div>
                 <script type="text/javascript">
                 /*<![CDATA[*/
@@ -253,6 +261,11 @@ C/O https://placeholder.com/" alt="placeholder">
                 /*]]>*/
                 </script>
             </div>
+            
+        </div>
+        <!-- <div class="row">  
+            <div class="col-md-4 col-sm-12">
+                
         
             <div class="col-md-4 col-sm-12">
                 <div id='product-component-1635275805695'></div>
@@ -560,14 +573,17 @@ C/O https://placeholder.com/" alt="placeholder">
                 /*]]>*/
                 </script>
             </div>
-        </div>
+        </div> -->
     </div>
-    <div class="container-fluid heading-block">
+    <!-- <div class="container-fluid heading-block">
         <h3>Resources</h3>
 
-    </div>
-    <div class="container resource-section">
+    </div> -->
+    <div class="container-fluid resource-section">
         <div class="row">
+            <div class="col-md-12 home-heading">
+            <h3>Resources</h3>
+            </div>
             <div class="col-md-4 col-sm-12">
             <?php echo do_shortcode('[oxilab_flip_box  id="2"]'); ?>
             </div>
