@@ -26,7 +26,11 @@
                 </div>
                 <div class="col-sm-12 col-md-4 footer-break">
                     <div class="footer-right">
-                        <img class="footer-logo" src="http://localhost/flexcim/wp-content/uploads/2021/08/Flexcim_Logo_vert.png" />
+                        <img class="footer-logo" src="http://localhost/flexcim/wp-content/uploads/2021/08/Flexcim_Logo_vert.png" /><br>
+                        <div class="social">
+                            <a href="https://ca.linkedin.com/company/flexcim-manufacturing-services-inc" target="_blank" class="d-inline-block"><img src="http://localhost/flexcim/wp-content/uploads/2021/11/linkedIn-social-icon.png" alt="linkedin logo" class="social-icon linked-in "></a>
+                            <a href="https://www.facebook.com/Flexcim-Manufacturing-Services-Inc-108624664942289/?hc_ref=ARSVoaQWZ2l2yUHUoUBWJFKq-qPUcCuUvLwTQTPZXCNv8nbQv8dfU2XSa4fofjUkcCo&fref=nf&__tn__=kC-R" target="_blank" class="d-inline-block"><img src="http://localhost/flexcim/wp-content/uploads/2021/11/facebook-social-icon.png" alt="facebook logo" class="social-icon facebook"></a>
+                        </div>
                     </div>
                 </div>
             </div>

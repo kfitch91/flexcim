@@ -27,6 +27,7 @@ This theme, like WordPress, is licensed under the GPL.
 004.1 ---------- Footer Nav
 004.2 ---------- Copyright
 004.3 ---------- Footer Widget
+004.4 ---------- Social Icons
 005 ------------ Pages / Posts
 005.1 ---------- Hero
 005.1.1 -------- Hero Backgound
@@ -229,6 +230,23 @@ footer p {
 
 /* 004.3 -- Footer widget */
 
+/* 004.4 -- Social */
+.social {
+  margin-top: 5px;
+  margin-left: 40px;
+}
+.social .social-icon{
+  width: 25px;
+  
+}
+
+.social .linked-in {
+  margin-right: 10px;
+}
+.social .facebook {
+  margin-left: 10px;
+}
+
 /* 005 -- Pages / Posts */
 /* 005.1 -- Hero */
 
@@ -325,7 +343,7 @@ footer p {
 
 .about-section {
   margin-top: 50px;
-  background-color: #a19e9e;
+  /* background-color: #a19e9e; */
   
 }
 
@@ -429,3 +447,4 @@ footer p {
   background: url("http://localhost/flexcim/wp-content/uploads/2021/11/IMG_21361-web.jpg") ;
   background-size: contain cover;
 } */
+
