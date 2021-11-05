@@ -25,13 +25,13 @@ get_header();
     </div>
 
     
-    <div class="container marketing">
+    <!-- <div class="container marketing"> -->
         <!-- Three columns of text below the carousel -->
         
 
 
 
-        <hr class="featurette-divider">
+        <!-- <hr class="featurette-divider">
 
         <div class="row featurette">
             <div class="col-md-7">
@@ -70,10 +70,10 @@ get_header();
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider"> -->
 
 
-    </div><!-- /.container -->
+    <!-- </div>/.container -->
 </main>
 
 <?php

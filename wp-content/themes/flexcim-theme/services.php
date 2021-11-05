@@ -17,11 +17,14 @@ query_posts(array(
     <?php 
         $args = array(
             'post_type'     =>      'Flexcim_service',
-            'posts_per_page'    =>  3
+            'posts_per_page'    =>  4,
+            
             );
             $the_query  = new WP_Query( $args ); ?>
 
         <?php if ( $the_query->have_posts() ) : ?>
+
+            
 
         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
@@ -37,6 +40,7 @@ query_posts(array(
                             
                     <?php the_excerpt(); ?>
                 </div>
+                
             </div> <!-- end col-md-7 -->
         </div> <!-- end row -->
 
@@ -44,7 +48,7 @@ query_posts(array(
 
         <?php endwhile; ?>
             <?php wp_reset_postdata(); ?>
-                        
+            
             <?php endif; ?>
     </div>
     
@@ -52,5 +56,3 @@ query_posts(array(
 
 <?php  
 get_footer();
-
-

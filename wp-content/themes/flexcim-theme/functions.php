@@ -13,6 +13,7 @@
   001 ---------- Flexcim Theme Support
   001.1 -------- Global Content Width
   001.2 -------- Featured Image Support
+  001.3 -------- Pagination
   002 ---------- Theme CSS & JS
   002.1 -------- Bootstrap
   002.2 -------- CSS & JS
@@ -53,8 +54,13 @@ add_theme_support( 'post-thumbnails', array(
     )
  );
 
- //001.3 -- Thumbnail size
 set_post_thumbnail_size( 250, 250 );
+
+//001.3 -- Pagination
+
+
+
+
 
 // 002 -- Theme CSS and JS
 
