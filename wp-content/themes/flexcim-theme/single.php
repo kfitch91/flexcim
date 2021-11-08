@@ -27,8 +27,13 @@
         <div class="container page-content">
             <div class="row">
                 <div class="col-md-12">
-                    <?php the_post_thumbnail(); ?>
-                    <?php the_content(); ?>
+                    <div class="clearfix">
+                        <?php the_post_thumbnail(); ?>
+                        <div class="single-text-wrap">
+                            <?php the_content(); ?>
+                        </div>
+                    </div>
+                    
                 </div>
             </div><!-- End of Row -->
         </div><!-- End of Container -->

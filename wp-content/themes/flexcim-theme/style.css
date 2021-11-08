@@ -344,6 +344,9 @@ footer p {
 
 .about-home-img {
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .about-section {
@@ -424,7 +427,7 @@ footer p {
 
 /* end of w3 flip */
 
-.about-home-bg-img {
+/* .about-home-bg-img {
   background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/IMG_21361-web.jpg");
   background-color: darkorange;
   height: 500px;
@@ -434,15 +437,16 @@ footer p {
   background-size: cover;
   position: relative;
   margin: auto;
-}
+} */
+
 
 .home-content {
   padding-right: 100px;
 }
 
-.shopify-summary {
+/* .shopify-summary {
   padding-left: 100px;
-}
+} */
 
 
 /* .about-home-bg-img{
@@ -454,7 +458,7 @@ footer p {
 } */
 
 /* Test */
-.pagination {
+/* .pagination {
   clear:both;
   padding:20px 0;
   position:relative;
@@ -479,4 +483,4 @@ footer p {
   padding:6px 9px 5px 9px;
   background: #3279BB;
   color:#fff;
-  }
+  } */

@@ -10,6 +10,20 @@
     }
 } */
 
+@media screen and (min-width: 1400px){
+  .about-home-img {
+    width: 650px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .shopify-summary {
+    padding-left: 100px;
+
+}
+  
+}
+
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .menu-nav .nav-link {
     font-size: 16px;
@@ -24,6 +38,15 @@
   .about-image {
     width: 100%;
     padding: 20px 0;
+  }
+
+  .about-home-img {
+    width: 550px;
+    margin-bottom: 20px;
+  }
+
+  .flip-heading-front {
+    left: 43%;
   }
 
 
@@ -77,5 +100,9 @@
   /* About Page */
   .about-image {
     width: 100%;
+  }
+
+  .flip-heading-front{
+    left: 38%;
   }
 }

@@ -54,7 +54,7 @@ add_theme_support( 'post-thumbnails', array(
     )
  );
 
-set_post_thumbnail_size( 250, 250 );
+set_post_thumbnail_size( 350, 350 );
 
 //001.3 -- Pagination
 

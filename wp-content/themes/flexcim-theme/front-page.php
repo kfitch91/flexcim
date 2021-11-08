@@ -23,12 +23,13 @@ get_header()
             <div class="col-md-12 home-heading">
                 <h3>About</h3>
             </div>
-            <div class="col-md-5 col-sm-12">
+            <div class="col-lg-6 col-md-12">
                 <div class="about-home-bg-img"></div>
                 <!-- <img class="about-home-img" src="https://via.placeholder.com/350
                 C/O https://placeholder.com/" alt="placeholder"> -->
+                <img class="about-home-img" src="http://localhost/flexcim/wp-content/uploads/2021/11/IMG_21361-web.jpg" alt="Flexcim Group Photo">
             </div>
-            <div class="col-md-7 col-sm-12 home-content">
+            <div class="col-lg-6 col-md-12 home-content">
                 <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan. Coloring book pok pok hexagon pork belly cardigan celiac artisan pinterest brunch single-origin coffee humblebrag pabst unicorn. Asymmetrical drinking vinegar hashtag cronut readymade polaroid lyft DIY ennui. Everyday carry pour-over williamsburg fam, heirloom cronut disrupt unicorn pitchfork banh mi. Fam raclette biodiesel, leggings man bun edison bulb shabby chic. Authentic mlkshk gluten-free cold-pressed typewriter echo park bushwick truffaut mustache four loko viral chillwave poke.</p>
                 <p><a href="#">Learn More</a>
             </div>
@@ -40,7 +41,7 @@ get_header()
             <div class="col-md-12 home-heading">
             <h3>Services</h3>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-lg-4 col-md-12">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -55,7 +56,7 @@ get_header()
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 ">
+            <div class="col-lg-4 col-md-12 ">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -70,7 +71,7 @@ get_header()
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-lg-4 col-md-12">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
