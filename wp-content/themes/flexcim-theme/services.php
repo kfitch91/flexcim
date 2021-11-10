@@ -13,7 +13,7 @@ query_posts(array(
             </div>
         </div>
     </div>
-    <div class="container page-content">
+    <div class="container page-content ">
     <?php 
         $args = array(
             'post_type'     =>      'Flexcim_service',
@@ -29,12 +29,12 @@ query_posts(array(
         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
         <div class="row service-posts">        
-            <div class="col-md-5">
+            <div class="col-lg-5 col-md-12">
                 <div class="post-thumbnail">
                     <?php the_post_thumbnail(); ?>
                 </div>
             </div>
-            <div class="col-md-7 service-content">            
+            <div class="col-lg-7 col-md-12 service-content">            
                 <h2><?php the_title(); ?></h2>
                 <div class="service-excerpt">
                             

@@ -21,6 +21,9 @@
     padding-left: 100px;
 
 }
+.home-content {
+  padding-right: 100px;
+}
   
 }
 
@@ -35,10 +38,27 @@
     display: none;
   }
 
-  .about-image {
+  .about-image, .single-thumbnail img {
     width: 100%;
     padding: 20px 0;
   }
+
+  .service-posts .post-thumbnail img{
+    margin-bottom: 20px;
+    
+  }
+
+  .resources-posts .post-thumbnail img{
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .service-posts .post-thumbnail img, .resources-posts .post-thumbnail img {
+    width: 480px;
+    height: 100%;
+  }
+
+
 
   .about-home-img {
     width: 550px;
@@ -105,4 +125,10 @@
   .flip-heading-front{
     left: 38%;
   }
+
+  .service-posts .post-thumbnail img, .resources-posts .post-thumbnail img {
+    width: 100%;
+  }
+
+
 }

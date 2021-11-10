@@ -312,8 +312,24 @@ footer p {
 }
 
 /*005.4 -- Services & Resources*/
-.service-posts {
+.service-posts, .resources-posts {
   margin: 20px 0;
+}
+
+.resources-posts .post-thumbnail img, .service-posts .post-thumbnail img{
+  display: block;
+  margin: auto;
+}
+
+.single-thumbnail {
+  margin: 0;
+}
+
+.single-thumbnail img {
+  width: 500px;
+  height: 100%;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
 
 /* 005.5 -- Home Page */
@@ -355,6 +371,10 @@ footer p {
   
 }
 
+.service-section {
+  background-color: #BCBCBC;
+}
+
 .resource-section {
   margin-bottom: 50px;
 }
@@ -378,11 +398,11 @@ footer p {
 /* W3 Schools Flip Box */
 .flip-card {
   background-color: transparent;
-  /* width: 300px; */
-  height: 300px;
+  height: 500px;
   perspective: 1000px;
-  width: 100%;
-  margin-bottom: 20px;
+  /* width: 100%; */
+  /* margin-bottom: 20px; */
+  margin: 20px;
 }
 
 .flip-card-inner {
@@ -409,8 +429,27 @@ footer p {
 
 .flip-card-front {
   background-color: #bbb;
-  color: #000;
+  color: #fff;
+  text-shadow: 2px 2px #000 ;
+  background-size: cover;
+  background-repeat: no-repeat;
 
+}
+
+.flip-card-inner .first-service{
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/trains-1026-4621x3070-1.jpg');
+}
+
+.flip-card-inner .second-service{
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/staircase-web.jpg');
+}
+
+.flip-card-inner .third-service{
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/bicycle-web.jpg');
+}
+
+.flip-card-inner .fourth-service{
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/food-web.jpg');
 }
 
 .flip-card-back {
@@ -440,9 +479,7 @@ footer p {
 } */
 
 
-.home-content {
-  padding-right: 100px;
-}
+
 
 /* .shopify-summary {
   padding-left: 100px;
@@ -484,3 +521,47 @@ footer p {
   background: #3279BB;
   color:#fff;
   } */
+
+  /* Home Carousel */
+  .carousel-inner {
+    padding: 1em;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+    .carousel-inner {
+      display: flex;
+    }
+  }
+  .card .img-wrapper {
+      max-width: 100%;
+      height: 13em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .card img {
+      max-height: 100%;
+  }
+  @media (max-width: 767px) {
+    .card .img-wrapper {
+      height: 17em;
+    }
+  }

@@ -28,7 +28,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="clearfix">
-                        <?php the_post_thumbnail(); ?>
+                        <figure class="float-lg-start single-thumbnail">
+                            <?php the_post_thumbnail(); ?>
+                        </figure>
+                        
                         <div class="single-text-wrap">
                             <?php the_content(); ?>
                         </div>

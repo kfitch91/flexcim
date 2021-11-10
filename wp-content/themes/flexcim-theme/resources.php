@@ -17,7 +17,7 @@ query_posts(array(
         <?php
             $args = array(
                     'post_type'     => 'flexcim_resource',
-                    'posts_per_page'    => 3
+                    'posts_per_page'    => 4
                 );
                 $the_query = new WP_Query( $args ); ?>
 
@@ -26,14 +26,14 @@ query_posts(array(
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
         <div class="row resources-posts">
-            <div class="col-md-7">
+            <div class="col-lg-7 col-md-12">
                
                 <h2><?php the_title(); ?></h2>
                 <div class="resource-excerpt">
                     <?php the_excerpt(); ?>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-lg-5 col-md-12">
                 <div class="post-thumbnail">
                     <?php the_post_thumbnail(); ?>
                 </div>
