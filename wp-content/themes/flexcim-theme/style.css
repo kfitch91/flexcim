@@ -290,6 +290,43 @@ footer p {
   text-shadow: 3px 3px #363636;
 }
 
+.postid-173 .single-background {
+  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/product-development-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.postid-172 .single-background {
+  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/injection-molding-web.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.postid-171 .single-background {
+  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/CNC-Lathe-web.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.postid-170 .single-background {
+  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/prototyping-2-web.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.postid-173 .hero-title, 
+.postid-172 .hero-title,
+.postid-171 .hero-title,
+.postid-170 .hero-title {
+  color: #fff;
+  text-shadow: 3px 3px #363636;
+}
+
 /* 005.2 -- Page Content */
 
 .page-content {

@@ -13,15 +13,13 @@
 <!-- Oct 25: Both the Resources and Services Custom Post Type are reading this file instead of the single-flexcim_services.php file and the single-flexcim_resources.php file-->
 
 <main class="post">
-    <?php if(have_posts()) : the_post(); ?>
-    <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-        <div class="container-fluid">
+    <div class="container-fluid">
+        <?php if(have_posts()) : the_post(); ?>
+        <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             <div class="row">
-                <div class="col-md-12">
-                    <div class="hero single-background">
-                        <?php the_title( '<h1 class="hero-title">', '</h1>'); ?>
-                    </div><!-- End of Hero -->
-                </div><!--End of Col -->
+                <div class="hero single-background">
+                    <?php the_title( '<h1 class="hero-title">', '</h1>'); ?>
+                </div><!-- End of Hero -->
             </div> <!-- End of Row -->
         </div>
         <div class="container page-content">
