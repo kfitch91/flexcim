@@ -8,7 +8,7 @@
  
 
 # Ignore everything in the "wp-content" directory, except the "plugins"
-# and "themes" directories.
+# and "themes" and uploads directories.
 wp-content/*
 wp-content/plugins/*
 wp-content/uploads/*
