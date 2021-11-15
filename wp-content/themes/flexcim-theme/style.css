@@ -283,11 +283,18 @@ footer p {
 /*use .page-id-# to call a specific page to add background img*/
 .page-id-2 .about-background {
   background-image: url("http://localhost/flexcim/wp-content/uploads/2021/09/edmonton.jpg");
+  background-position: center;
 }
 
-.page-id-2 .about-background h1 {
+.page-id-2 .about-background h1, 
+.page-id-21 .services-background h1 {
   color: #fff;
   text-shadow: 3px 3px #363636;
+}
+
+.page-id-21 .services-background {
+  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/services-banner-web-gs.jpg");
+  background-position: center;
 }
 
 .postid-173 .single-background {
@@ -433,14 +440,7 @@ footer p {
 }
 
 /* W3 Schools Flip Box */
-.flip-card {
-  background-color: transparent;
-  height: 500px;
-  perspective: 1000px;
-  /* width: 100%; */
-  /* margin-bottom: 20px; */
-  margin: 20px;
-}
+
 
 .flip-card-inner {
   position: relative;
@@ -452,9 +452,7 @@ footer p {
   box-shadow: 0 4px 8px 0 rbga(0,0,0,0.2);
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
+
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -469,28 +467,13 @@ footer p {
   color: #fff;
   text-shadow: 2px 2px #000 ;
   background-size: cover;
+  background-position: bottom;
   background-repeat: no-repeat;
 
 }
 
-.flip-card-inner .first-service{
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/trains-1026-4621x3070-1.jpg');
-}
-
-.flip-card-inner .second-service{
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/staircase-web.jpg');
-}
-
-.flip-card-inner .third-service{
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/bicycle-web.jpg');
-}
-
-.flip-card-inner .fourth-service{
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/food-web.jpg');
-}
-
 .flip-card-back {
-  background-color: #269b09;
+  background-color: #5b6770;
   color: #fff;
   transform: rotateY(180deg);
 }
@@ -498,8 +481,96 @@ footer p {
 .flip-heading-front {
   position: absolute;
   top: 44%;
+  left: 30%;
+}
+
+.flip-link {
+  color: #FCB41f;
+  text-decoration: none;
+}
+
+.flip-link:hover{
+  color: #FDD278;
+}
+
+.flip-card-back-wrap {
+  margin: 50px auto;
+  position: absolute;
+  top: 100px;
+}
+
+.flip-card-service {
+  background-color: transparent;
+  height: 500px;
+  perspective: 1000px;
+  /* width: 100%; */
+  /* margin-bottom: 20px; */
+  /* margin: 20px; */
+}
+
+.flip-card-service:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-resource {
+  background-color: transparent;
+  height: 500px;
+  perspective: 1000px;
+  /* width: 100%; */
+  /* margin-bottom: 20px; */
+  /* margin: 20px; */
+}
+
+.flip-card-resource:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card-inner .first-service{
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/project-developement-web.jpg');
+}
+
+.flip-card-inner .first-service h4 {
+  left: 24%;
+}
+
+.flip-card-inner .second-service{
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/mold-base-web.jpg');
+}
+
+
+.flip-card-inner .third-service{
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/lathe-cnc-web-gs.jpg');
+  background-position: left;
+}
+
+.flip-card-inner .fourth-service{
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/prototyping-web.jpg');
+}
+
+.flip-card-inner .fourth-service h4 {
   left: 35%;
 }
+
+.flip-card-inner .first-resource {
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/black-plastic-polymer-web.jpg');
+}
+.flip-card-inner .first-resource h4 {
+  left: 24%;
+}
+
+.flip-card-inner .second-resource {
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/car-web.jpg');
+}
+
+.flip-card-inner .third-resource {
+  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/tooling-web.jpg');
+}
+.flip-card-inner .third-resource h4 {
+  left: 32%;
+}
+
 
 /* end of w3 flip */
 

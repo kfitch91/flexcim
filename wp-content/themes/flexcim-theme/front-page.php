@@ -381,67 +381,75 @@ get_header()
     <div class="container-fluid service-section">
         <div class="row">
             <div class="col-md-12 home-heading">
-            <h3>Services</h3>
+                <h3>Services</h3>
             </div>
-            <div class="col-lg-6 col-md-12">
-                <div class="flip-card">
+            <div class="col-lg-3 col-md-12">
+                <div class="flip-card-service">
                     <div class="flip-card-inner">
                         <div class="flip-card-front first-service">
                             
                             <h4 class="flip-heading-front flip-first">Product Development</h4>
                         </div>
                         <div class="flip-card-back">
-                            <h4 class="flip-heading-back">Service #1</h4>
-                            <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
+                            <div class="flip-card-back-wrap">
+                                <h4 class="flip-heading-back">Product Development</h4>
+                                <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
 
-                            <p><a href="#">Learn More...</a>
+                                <p><a href="#" class="flip-link">Learn More...</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 ">
-                <div class="flip-card">
+            <div class="col-lg-3 col-md-12 ">
+                <div class="flip-card-service">
                     <div class="flip-card-inner">
                         <div class="flip-card-front second-service">
                             <h4 class="flip-heading-front">Injection Molding</h4>
                         </div>
                         <div class="flip-card-back">
-                            <h4 class="flip-heading-back">Service #2</h4>
-                            <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
+                            <div class="flip-card-back-wrap">
+                                <h4 class="flip-heading-back">Injection Molding</h4>
+                                <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
 
-                            <p><a href="#">Learn More...</a>
+                                <p><a href="#" class="flip-link">Learn More...</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-md-12">
-                <div class="flip-card">
+        
+        
+            <div class="col-lg-3 col-md-12">
+                <div class="flip-card-service">
                     <div class="flip-card-inner">
                         <div class="flip-card-front third-service">
                             <h4 class="flip-heading-front ">CNC Machining</h4>
                         </div>
                         <div class="flip-card-back">
-                            <h4 class="flip-heading-back">Service #3</h4>
-                            <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
+                            <div class="flip-card-back-wrap">
+                                <h4 class="flip-heading-back">CNC Machining</h4>
+                                <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
 
-                            <p><a href="#">Learn More...</a>
+                                <p><a href="#" class="flip-link">Learn More...</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12">
-                <div class="flip-card">
+            <div class="col-lg-3 col-md-12">
+                <div class="flip-card-service">
                     <div class="flip-card-inner">
                         <div class="flip-card-front fourth-service">
                             <h4 class="flip-heading-front ">Prototyping</h4>
                         </div>
                         <div class="flip-card-back">
-                            <h4 class="flip-heading-back">Service #4</h4>
-                            <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
+                            <div class="flip-card-back-wrap">
+                                <h4 class="flip-heading-back">Prototyping</h4>
+                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
 
-                            <p><a href="#">Learn More...</a>
+                                <p><a href="#" class="flip-link">Learn More...</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -964,16 +972,58 @@ get_header()
     <div class="container-fluid resource-section">
         <div class="row">
             <div class="col-md-12 home-heading">
-            <h3>Resources</h3>
+                <h3>Resources</h3>
             </div>
-            <div class="col-md-4 col-sm-12">
-            <?php echo do_shortcode('[oxilab_flip_box  id="2"]'); ?>
+            <div class="col-lg-4 col-md-12">
+                <div class="flip-card-resource">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front first-resource">
+                            <h4 class="flip-heading-front ">Plastic Materials</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="flip-card-back-wrap">
+                                <h4 class="flip-heading-back">Plastic Materials</h4>
+                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+
+                                <p><a href="#" class="flip-link">Learn More...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-12">
-            <?php echo do_shortcode('[oxilab_flip_box  id="2"]'); ?>
+            <div class="col-lg-4 col-md-12">
+                <div class="flip-card-service">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front second-resource">
+                            <h4 class="flip-heading-front ">Plastic Parts Design</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="flip-card-back-wrap">
+                                <h4 class="flip-heading-back">Plastic Parts Design</h4>
+                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+
+                                <p><a href="#" class="flip-link">Learn More...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-12">
-            <?php echo do_shortcode('[oxilab_flip_box  id="2"]'); ?>
+            <div class="col-lg-4 col-md-12">
+                <div class="flip-card-service">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front third-resource">
+                            <h4 class="flip-heading-front ">Tooling Materials</h4>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="flip-card-back-wrap">
+                                <h4 class="flip-heading-back">Tooling Materials</h4>
+                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+
+                                <p><a href="#" class="flip-link">Learn More...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

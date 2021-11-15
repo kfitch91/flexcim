@@ -20,7 +20,7 @@ get_header();
                 </div>
             </div>
             <div class="col-md-6">
-                <?php echo do_shortcode('[forminator_form id="78"]'); ?>
+                <?php echo do_shortcode('[forminator_form id="195"]'); ?>
             </div>
         </div>
     </div>
