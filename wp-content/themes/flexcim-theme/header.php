@@ -28,15 +28,24 @@
     <div id="page" class="site">
         <nav class="navbar call-to-action "> <!--call to action-->
             <div class="container">
-                <a class="navbar-text" href="tel:+1-780-465-0109">
+                <ul class="d-flex flex-row ms-auto">
+                    <li class="p-2">
+                        <a class="navbar-text" href="tel:+1-780-465-0109">
                     1(780)465-0109
-                </a>     
+                        </a> 
+                    </li>
+                    <li class="p-2">
+                        <a class="navbar-text" href="http://localhost/flexcim/request-a-quote/">Request a Quote</a> 
+                    </li>
+                </ul>
+                   
+                
             </div>
         </nav>
         
         <nav class="navbar navbar-expand-md">
             <div class="container d-flex">
-                <a class="navbar-brand me-lg-auto" href="#">
+                <a class="navbar-brand me-lg-auto" href="http://localhost/flexcim/">
                     <img class="header-logo img-fluid" src="http://localhost/flexcim/wp-content/uploads/2021/08/Flexcim_Logo_horz.png">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#flexcim-menu" aria-controls="flexcim-menu" aria-expanded="false" aria-label="Toggle navigation">

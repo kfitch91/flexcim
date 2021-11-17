@@ -77,6 +77,10 @@ body {
   padding-bottom: 0px;
 }
 
+.call-to-action li {
+  list-style: none;
+}
+
 .navbar-text {
   text-decoration: none;
   color: inherit;
@@ -378,6 +382,23 @@ footer p {
   height: 100%;
   padding-right: 20px;
   padding-bottom: 10px;
+}
+
+.link-btn {
+  background-color: #586876;
+  color: #fbb911;
+  border-radius: 25px;
+  margin: 0 auto;
+  
+}
+
+.link-btn:hover {
+  color: #FCD570;
+  background-color: #9aa4ac;
+}
+
+.link-btn-wrap {
+  text-align: center;
 }
 
 /* 005.5 -- Home Page */
