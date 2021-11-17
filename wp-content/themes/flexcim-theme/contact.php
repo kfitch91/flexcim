@@ -14,15 +14,12 @@ get_header();
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <div class="contact-content">
-                    <?php the_content();?>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <?php echo do_shortcode('[forminator_form id="195"]'); ?>
-            </div>
+            <?php the_content();?>
+
+            
+         
         </div>
+        
     </div>
 </main>
 

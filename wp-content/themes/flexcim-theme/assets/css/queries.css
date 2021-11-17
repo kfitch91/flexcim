@@ -14,6 +14,8 @@
   .about-home-img {
     width: 650px;
   }
+
+  
 }
 
 @media screen and (min-width: 1200px) {
@@ -23,6 +25,14 @@
 }
 .home-content {
   padding-right: 100px;
+}
+
+.flip-card-inner .first-service h4 {
+  left: 24%;
+}
+
+.flip-card-inner .fourth-service h4 {
+  left: 35%;
 }
   
 }
@@ -69,6 +79,10 @@
     left: 43%;
   }
 
+  .flip-card-service {
+    margin-bottom: 20px;
+  }
+
 
 }
 
@@ -101,6 +115,8 @@
     text-align: center;
     padding-left: 0;
   }
+
+  
 }
 
 @media screen and (max-width: 575px) {
