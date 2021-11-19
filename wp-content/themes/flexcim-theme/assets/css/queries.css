@@ -41,6 +41,10 @@
   .menu-nav .nav-link {
     font-size: 16px;
   }
+
+  .header-logo {
+    max-width: 239px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -67,6 +71,7 @@
     width: 480px;
     height: 100%;
   }
+  
 
 
 
@@ -76,11 +81,28 @@
   }
 
   .flip-heading-front {
-    left: 43%;
+    left: 40%;
+  }
+
+  .first-service .flip-heading-front{
+    left: 35%;
+  }
+
+  .fourth-service .flip-heading-front {
+    left: 42%;
   }
 
   .flip-card-service {
     margin-bottom: 20px;
+  }
+
+  .first-resource .flip-heading-front {
+    left: 37%!important;
+    top: 39%;
+  }
+
+  .third-resource .flip-heading-front {
+    left: 35%!important;
   }
 
 

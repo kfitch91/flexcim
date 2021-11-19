@@ -184,7 +184,7 @@ footer p {
 /* 004.1 -- Footer Nav */
 
 .footer-nav {
-  background-color: #323232;
+  background-color: #141414;
 }
 
 .footer-nav .footer-break {
@@ -291,7 +291,8 @@ footer p {
 }
 
 .page-id-2 .about-background h1, 
-.page-id-21 .services-background h1 {
+.page-id-21 .services-background h1,
+.page-id-39 .resources-background h1 {
   color: #fff;
   text-shadow: 3px 3px #363636;
 }
@@ -299,6 +300,11 @@ footer p {
 .page-id-21 .services-background {
   background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/services-banner-web-gs.jpg");
   background-position: center;
+}
+
+.page-id-39 .resources-background {
+  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/library-web-gs.jpg");
+  background-position: cover;
 }
 
 .postid-173 .single-background {
@@ -363,6 +369,47 @@ footer p {
   margin-bottom: 50px;
 }
 
+.address-link {
+  color: #586876;
+  text-decoration: none;
+}
+
+.address-link:last-child{
+  font-weight: 600;
+}
+
+.address-link:hover {
+  color: #fbb911;
+}
+
+.contact-quote-box {
+  background-color: #243949;
+}
+
+.contact-quote-box .btn-outline {
+  border: solid 1px #fbb911;
+  color: #fbb911;
+}
+
+.contact-quote-box .btn-outline:hover{
+  background-color: #fbb911;
+  color: #243949;
+}
+
+.contact-general-box {
+  border: solid 1px #243949;
+}
+
+.contact-general-box .btn-outline {
+  border: solid 1px #243949;
+  color: #243949;
+}
+
+.contact-general-box .btn-outline:hover {
+  background-color: #243949;
+  color: #fff;
+}
+
 /*005.4 -- Services & Resources*/
 .service-posts, .resources-posts {
   margin: 20px 0;
@@ -401,13 +448,37 @@ footer p {
   text-align: center;
 }
 
+.excerpt-link {
+  color: #586876;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.excerpt-link:hover {
+  color: #fbb911;
+}
+
 /* 005.5 -- Home Page */
 .video-header {
   margin-bottom: 50px;
 }
+
+.home-hero h1 {
+  text-shadow: 2px 2px #000;
+}
 .shopify {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.shopify-summary a {
+  text-decoration: none;
+  color: #586876;
+  font-weight: 600;
+}
+
+.shopify-summary a:hover{
+  color: #fbb911;
 }
 
 .home-heading h3 {
@@ -598,48 +669,29 @@ footer p {
 
 /* end of w3 flip */
 
+.carousel-caption {
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  
+}
 
+.carousel-item img{
+  width: 50%;
+  margin: 0 auto;
+}
 
-  /* Home Carousel */
-  .carousel-inner {
-    padding: 1em;
-  }
-  .card {
-    margin: 0 0.5em;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    border: none;
-  }
-  .carousel-control-prev,
-  .carousel-control-next {
-    background-color: #e1e1e1;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  @media (min-width: 768px) {
-    .carousel-item {
-      margin-right: 0;
-      flex: 0 0 33.333333%;
-      display: block;
-    }
-    .carousel-inner {
-      display: flex;
-    }
-  }
-  .card .img-wrapper {
-      max-width: 100%;
-      height: 13em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .card img {
-      max-height: 100%;
-  }
-  @media (max-width: 767px) {
-    .card .img-wrapper {
-      height: 17em;
-    }
-  }
+.carousel-indicators button{
+  background-color: #3d4852;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  background-color: #000;
+}
+
+.carousel-control-next-icon {
+  color: fuchsia;
+}

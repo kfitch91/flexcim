@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4 footer-break ">
                     <div class="footer-link">
-                    <h3>Sitemap</h3>
+                    <h3>Site Map</h3>
                     <div class="footer-sitemap">
                         <ul>
                             <li><a href=#">Link</a></li>
