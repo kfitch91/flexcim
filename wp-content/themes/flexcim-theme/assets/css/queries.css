@@ -15,6 +15,12 @@
     width: 650px;
   }
 
+  .carousel-item img {
+    width: 50%;
+  }
+
+ 
+
   
 }
 
@@ -22,20 +28,25 @@
   .shopify-summary {
     padding-left: 100px;
 
-}
-.home-content {
-  padding-right: 100px;
-}
+  }
+  .home-content {
+    padding-right: 100px;
+  }
 
-.flip-card-inner .first-service h4 {
-  left: 24%;
-}
+  /* .flip-card-inner .first-service h4 {
+    left: 24%;
+  }
 
-.flip-card-inner .fourth-service h4 {
-  left: 35%;
-}
+  .flip-card-inner .fourth-service h4 {
+    left: 35%;
+  } */
+
+  
+
   
 }
+
+
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .menu-nav .nav-link {
@@ -45,6 +56,10 @@
   .header-logo {
     max-width: 239px;
   }
+  .carousel-item img {
+    
+    width: 100%;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -80,7 +95,7 @@
     margin-bottom: 20px;
   }
 
-  .flip-heading-front {
+  /* .flip-heading-front {
     left: 40%;
   }
 
@@ -103,7 +118,7 @@
 
   .third-resource .flip-heading-front {
     left: 35%!important;
-  }
+  } */
 
 
 }
@@ -160,9 +175,9 @@
     width: 100%;
   }
 
-  .flip-heading-front{
+  /* .flip-heading-front{
     left: 38%;
-  }
+  } */
 
   .service-posts .post-thumbnail img, .resources-posts .post-thumbnail img {
     width: 100%;

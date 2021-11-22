@@ -35,6 +35,9 @@ This theme, like WordPress, is licensed under the GPL.
 005.3 ---------- Contact Page
 005.4 ---------- Services and Resources
 005.5 ---------- Home Page
+005.5.1 -------- Home Page General
+005.5.2 -------- Home Page Flip Card
+005.5.3 -------- Home Page Carousel
 
 
 */
@@ -63,6 +66,15 @@ body {
   height: 100%;
 }
 
+ a {
+  color: #586876;
+  text-decoration: none;
+  
+}
+
+ a:hover {
+  color: #fbb911;
+}
 /* 002.1 -- Navbar & Call to action */
 
 .navbar {
@@ -206,15 +218,26 @@ footer p {
 
 .footer-break .footer-sitemap ul {
   padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100px;
 }
 
 .footer-break .footer-sitemap li {
   list-style: none;
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 5px;
 }
 
 .footer-break .footer-sitemap a {
   color: #fff;
+  text-decoration: none;
+}
+
+.footer-break .footer-sitemap a:hover {
+  color: #fbb911;
 }
 
 .footer-right {
@@ -250,6 +273,9 @@ footer p {
 .social .facebook {
   margin-left: 10px;
 }
+
+/* 004.5 -- Site Map */
+
 
 /* 005 -- Pages / Posts */
 /* 005.1 -- Hero */
@@ -389,11 +415,13 @@ footer p {
 .contact-quote-box .btn-outline {
   border: solid 1px #fbb911;
   color: #fbb911;
+  transition: color .5s;
 }
 
 .contact-quote-box .btn-outline:hover{
   background-color: #fbb911;
   color: #243949;
+  transition: color .5s;
 }
 
 .contact-general-box {
@@ -408,6 +436,10 @@ footer p {
 .contact-general-box .btn-outline:hover {
   background-color: #243949;
   color: #fff;
+}
+
+.contact-quote-box, .contact-general-box{
+  margin-bottom: 20px;
 }
 
 /*005.4 -- Services & Resources*/
@@ -459,6 +491,7 @@ footer p {
 }
 
 /* 005.5 -- Home Page */
+/*005.1 -- Home  Page General */
 .video-header {
   margin-bottom: 50px;
 }
@@ -529,14 +562,12 @@ footer p {
 }
 
 .heading-block h3 {
-  
   position: absolute;
   left: 46%;
   top: 118px;
 }
 
-/* W3 Schools Flip Box */
-
+/*005.5.2 -- W3 Schools Flip Box */
 
 .flip-card-inner {
   position: relative;
@@ -547,8 +578,6 @@ footer p {
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rbga(0,0,0,0.2);
 }
-
-
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -579,8 +608,8 @@ footer p {
 
 .flip-heading-front {
   position: absolute;
-  top: 44%;
-  left: 30%;
+  /* top: 44%;
+  left: 30%; */
 }
 
 .flip-link {
@@ -603,7 +632,7 @@ footer p {
   height: 500px;
   perspective: 1000px;
   /* width: 100%; */
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   /* margin: 20px; */
 }
 
@@ -624,18 +653,13 @@ footer p {
   transform: rotateY(180deg);
 }
 
-
-
 .flip-card-inner .first-service{
   background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/project-developement-web.jpg');
 }
 
-
-
 .flip-card-inner .second-service{
   background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/mold-base-web.jpg');
 }
-
 
 .flip-card-inner .third-service{
   background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/lathe-cnc-web-gs.jpg');
@@ -646,14 +670,13 @@ footer p {
   background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/prototyping-web.jpg');
 }
 
-
-
 .flip-card-inner .first-resource {
   background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/black-plastic-polymer-web.jpg');
 }
-.flip-card-inner .first-resource h4 {
+
+/* .flip-card-inner .first-resource h4 {
   left: 24%;
-}
+} */
 
 .flip-card-inner .second-resource {
   background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/car-web.jpg');
@@ -662,12 +685,14 @@ footer p {
 .flip-card-inner .third-resource {
   background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/tooling-web.jpg');
 }
-.flip-card-inner .third-resource h4 {
+/* .flip-card-inner .third-resource h4 {
   left: 32%;
-}
+} */
 
 
 /* end of w3 flip */
+
+/* 005.5.3 --  Home Page carousel */
 
 .carousel-caption {
   color: #fff;
@@ -675,23 +700,22 @@ footer p {
   
 }
 
-.carousel-item img{
-  width: 50%;
+.carousel-item img {
   margin: 0 auto;
-}
+  width: 75%;
+  }
 
-.carousel-indicators button{
-  background-color: #3d4852;
-}
 
 .carousel-indicators [data-bs-target] {
   background-color: #fff;
 }
 
-.carousel-control-next, .carousel-control-prev {
-  background-color: #000;
+.carousel-control-prev, .carousel-control-next {
+  color: #000;
 }
 
-.carousel-control-next-icon {
-  color: fuchsia;
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  color: #000;
 }
+
+/* end of carousel */

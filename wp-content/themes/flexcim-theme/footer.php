@@ -19,9 +19,12 @@
                     <h3>Site Map</h3>
                     <div class="footer-sitemap">
                         <ul>
-                            <li><a href=#">Link</a></li>
-                            <li><a href=#">Link</a></li>
-                            <li><a href=#">Link</a></li>       
+                            <li><a href=#">Home</a></li>
+                            <li><a href=#">About</a></li>
+                            <li><a href=#">Services</a></li>
+                            <li><a href="#">Store</a></li>       
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
                     </div>

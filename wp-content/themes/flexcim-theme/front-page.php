@@ -139,34 +139,39 @@ get_header()
                         <button type="button" data-bs-target="#shopCarousel" data-bs-slide-to="1"></button>
                         <button type="button" data-bs-target="#shopCarousel" data-bs-slide-to="2"></button>
                     </div>
+                    
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <a href="#" class="carousel-link"><img src="http://localhost/flexcim/wp-content/uploads/2021/11/aluminum-mold-base-web.jpg" alt="Flexcim Aluminum Mold Base" class="d-block" ></a>
                             <div class="carousel-caption">
                                 <h3>Mold Bases</h3>
-                                <p>Paragraph 1</p>
+                                
                             </div>
                         </div>
                         <div class="carousel-item">
                             <a href="#" class="carousel-link"><img src="http://localhost/flexcim/wp-content/uploads/2021/11/Face-shield-web.jpg" alt="Flexcim Protective Face Shield" class="d-block" ></a>
                             <div class="carousel-caption">
                                 <h3>PPE</h3>
-                                <p>Paragraph 2</p>
+                                
                             </div>
                         </div>
                         <div class="carousel-item">
                             <a href="#" class="carousel-link"><img src="http://localhost/flexcim/wp-content/uploads/2021/11/soft-jaw-web.jpg" alt="Flexcim Soft Jaw" class="d-block" ></a>
                             <div class="carousel-caption">
                                 <h3>Machine Shop Supplies</h3>
-                                <p>Paragraph 3</p>
+                                
                             </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#shopCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"><i class="bi bi-caret-left-fill"></i></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                            <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                        </svg>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#shopCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"><i class="bi bi-caret-right-fill"></i></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                        </svg>
                     </button>
                 </div>
             </div>
