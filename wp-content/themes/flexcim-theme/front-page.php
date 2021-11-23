@@ -1,7 +1,5 @@
 <?php
 
-
-
 get_header() 
 ?>
 
@@ -25,10 +23,6 @@ get_header()
             </div>
         </div>
     </div>
-
-    
-
-
 
     <div class="container-fluid service-section">
         <div class="row">
@@ -110,14 +104,6 @@ get_header()
         </div><!--End of Row-->
     </div>
     
-    
-
-    
-    
-
-    
-     
-    
     <div class="container-fluid shopify">
         <div class="row">
             <div class="col-sm-12 home-heading">
@@ -127,9 +113,9 @@ get_header()
                 <p>In the fall of 2021, we launched our <a href="https://flexcimstore.com/">online store</a>. With this outlet we hope to encourage North American buyers to look for products closer to home.</p>
                 <p>Our current selction is:</p>
                 <ul>
-                    <li><a href="https://flexcimstore.com/collections/mold-bases">A variety of different mold bases</a</li>
-                    <li><a href="https://flexcimstore.com/collections/person-protection-equipment-ppe">Protective face shields</a></li>
-                    <li><a href="https://flexcimstore.com/collections/soft-jaws">A variety of different machine shop supplies </a></li>
+                    <li><a href="https://flexcimstore.com/collections/mold-bases" target="_blank">A variety of different mold bases</a></li>
+                    <li><a href="https://flexcimstore.com/collections/person-protection-equipment-ppe" target="_blank">Protective face shields</a></li>
+                    <li><a href="https://flexcimstore.com/collections/soft-jaws" target="_blank">A variety of different machine shop supplies </a></li>
                 </ul>
             </div>
             <div class="col-sm-12 col-md-6">
@@ -176,179 +162,7 @@ get_header()
                 </div>
             </div>
         </div><!--end of row-->
-
-      
     </div>
-
-    <!-- <div class="container-fluid test">
-        <div id='collection-component-1637338480184'></div>
-        <script type="text/javascript">
-            /*<![CDATA[*/
-            (function () {
-                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                if (window.ShopifyBuy) {
-                    if (window.ShopifyBuy.UI) {
-                    ShopifyBuyInit();
-                    } else {
-                        loadScript();
-                    }
-                } else {
-                    loadScript();
-                }
-                function loadScript() {
-                    var script = document.createElement('script');
-                    script.async = true;
-                    script.src = scriptURL;
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                    script.onload = ShopifyBuyInit;
-                }
-                function ShopifyBuyInit() {
-                    var client = ShopifyBuy.buildClient({
-                        domain: 'flexcim-molds.myshopify.com',
-                        storefrontAccessToken: '037a617e8773cf7daa855a31c867b456',
-                    });
-                    ShopifyBuy.UI.onReady(client).then(function (ui) {
-                        ui.createComponent('collection', {
-                            id: '276818362529',
-                            node: document.getElementById('collection-component-1637338480184'),
-                            moneyFormat: '%24%7B%7Bamount%7D%7D%20CAD',
-                            options: {
-                                "product": {
-                                    "styles": {
-                                        "product": {
-                                            "@media (min-width: 601px)": {
-                                                "max-width": "calc(25% - 20px)",
-                                                "margin-left": "20px",
-                                                "margin-bottom": "50px",
-                                                "width": "calc(25% - 20px)"
-                                            },
-                                            "img": {
-                                                "height": "calc(100% - 15px)",
-                                                "position": "absolute",
-                                                "left": "0",
-                                                "right": "0",
-                                                "top": "0"
-                                            },
-                                            "imgWrapper": {
-                                                "padding-top": "calc(75% + 15px)",
-                                                "position": "relative",
-                                                "height": "0"
-                                            }
-                                        },
-                                        "button": {
-                                            "color": "#f8bd1f",
-                                            ":hover": {
-                                                "color": "#f8bd1f",
-                                                "background-color": "#515d6b"
-                                            },
-                                            "background-color": "#5a6777",
-                                            ":focus": {
-                                                "background-color": "#515d6b"
-                                            },
-                                            "border-radius": "7px",
-                                            "padding-left": "32px",
-                                            "padding-right": "32px"
-                                        }
-                                    },
-                                    "text": {
-                                        "button": "Add to cart"
-                                    }
-                                }, 
-                                "productSet": {
-                                    "styles": {
-                                        "products": {
-                                            "@media (min-width: 601px)": {
-                                                "margin-left": "-20px"
-                                            }
-                                        }
-                                    }
-                                },
-                                "modalProduct": {
-                                    "contents": {
-                                        "img": false,
-                                        "imgWithCarousel": true,
-                                        "button": false,
-                                        "buttonWithQuantity": true
-                                    },
-                                    "styles": {
-                                        "product": {
-                                            "@media (min-width: 601px)": {
-                                                "max-width": "100%",
-                                                "margin-left": "0px",
-                                                "margin-bottom": "0px"
-                                            }
-                                        },
-                                        "button": {
-                                            "color": "#f8bd1f",
-                                            ":hover": {
-                                                "color": "#f8bd1f",
-                                                "background-color": "#515d6b"
-                                            },
-                                            "background-color": "#5a6777",
-                                            ":focus": {
-                                                "background-color": "#515d6b"
-                                            },
-                                            "border-radius": "7px",
-                                            "padding-left": "32px",
-                                            "padding-right": "32px"
-                                        }
-                                    },
-                                    "text": {
-                                        "button": "Add to cart"
-                                    }
-                                },
-                                "option": {},
-                                "cart": {
-                                    "styles": {
-                                        "button": {
-                                            "color": "#f8bd1f",
-                                            ":hover": {
-                                                "color": "#f8bd1f",
-                                                "background-color": "#515d6b"
-                                            },
-                                            "background-color": "#5a6777",
-                                            ":focus": {
-                                                "background-color": "#515d6b"
-                                            },
-                                            "border-radius": "7px"
-                                        }
-                                    },
-                                    "text": {
-                                        "total": "Subtotal",
-                                        "notice": "",
-                                        "button": "Checkout"
-                                    }
-                                },
-                                "toggle": {
-                                    "styles": {
-                                        "toggle": {
-                                            "background-color": "#5a6777",
-                                            ":hover": {
-                                                "background-color": "#515d6b"
-                                            },
-                                            ":focus": {
-                                                "background-color": "#515d6b"
-                                            }
-                                        },
-                                        "count": {
-                                            "color": "#f8bd1f",
-                                            ":hover": {
-                                                "color": "#f8bd1f"
-                                            }
-                                        },
-                                        "iconPath": {
-                                            "fill": "#f8bd1f"
-                                        }
-                                    }
-                                }
-                            },
-                        });
-                    });
-                }
-            })();
-            /*]]>*/
-        </script>
-    </div> -->
 
     <div class="container-fluid resource-section">
         <div class="row">
@@ -366,7 +180,7 @@ get_header()
                                 <h4 class="flip-heading-back">Plastic Materials</h4>
                                 <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
 
-                                <p><a href="#" class="flip-link">Learn More...</a>
+                                <p><a href="/flexcim/resources/plastic-materials/" class="flip-link">Learn More...</a>
                             </div>
                         </div>
                     </div>
@@ -376,14 +190,14 @@ get_header()
                 <div class="flip-card-service">
                     <div class="flip-card-inner">
                         <div class="flip-card-front second-resource">
-                            <h4 class="flip-heading-front ">Plastic Parts Design</h4>
+                            <h4 class="flip-heading-front ">Designing Parts for Injection Molding</h4>
                         </div>
                         <div class="flip-card-back">
                             <div class="flip-card-back-wrap">
-                                <h4 class="flip-heading-back">Plastic Parts Design</h4>
+                                <h4 class="flip-heading-back">Designing Parts for Injection Molding</h4>
                                 <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
 
-                                <p><a href="#" class="flip-link">Learn More...</a>
+                                <p><a href="/flexcim/resources/plastic-parts-design/" class="flip-link">Learn More...</a>
                             </div>
                         </div>
                     </div>
@@ -400,7 +214,7 @@ get_header()
                                 <h4 class="flip-heading-back">Tooling Materials</h4>
                                 <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
 
-                                <p><a href="#" class="flip-link">Learn More...</a>
+                                <p><a href="/flexcim/resources/tooling-materials/" class="flip-link">Learn More...</a>
                             </div>
                         </div>
                     </div>
@@ -410,16 +224,6 @@ get_header()
     </div>
     
 </main>
-
-<!-- <script>
-    setTimeout(() => {
-        document.querySelector("#product-component-1635949005137 > iframe").style.height = "360px";
-
- console.log("ready");
-     }, 5000);
-
-</script> -->
-
 
 <?php
 

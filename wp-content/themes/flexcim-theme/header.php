@@ -27,8 +27,8 @@
     <?php wp_body_open(); ?>
     <div id="page" class="site">
         <nav class="navbar call-to-action "> <!--call to action-->
-            <div class="container">
-                <ul class="d-flex flex-row ms-auto">
+            <div class="container contact-bar">
+                <ul class="d-flex flex-row">
                     <li class="p-2">
                         <a class="navbar-text" href="tel:+1-780-465-0109">
                     1(780)465-0109
@@ -38,8 +38,6 @@
                         <a class="navbar-text" href="http://localhost/flexcim/request-a-quote/">Request a Quote</a> 
                     </li>
                 </ul>
-                   
-                
             </div>
         </nav>
         

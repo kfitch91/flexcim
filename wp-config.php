@@ -83,6 +83,9 @@ define( 'WP_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+// Disallow file edit
+define( 'DISALLOW_FILE_EDIT', true );
+
 
 
 /* That's all, stop editing! Happy publishing. */

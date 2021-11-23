@@ -50,6 +50,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
 h1,
 h2,
 h3,
@@ -106,6 +107,11 @@ body {
   color: inherit;
 }
 
+.navbar .contact-bar {
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+
 /* 002.2 -- Header Logo */
 
 .header-logo {
@@ -124,12 +130,19 @@ body {
   font-size: 20px;
 }
 
-.nav-item a:hover {
+.nav-item a:hover,
+.nav-item a:focus {
   color: #fcb912;
 }
 
 .navbar-toggler-icon {
   background: #db34c3;
+}
+
+.dropdown-item.active, 
+.dropdown-item:active {
+  background-color: #586876;
+  color: #fbb911;
 }
 
 /* 002.4 -- Hamburger Icon */
@@ -258,11 +271,13 @@ footer p {
 /* 004.3 -- Footer widget */
 
 /* 004.4 -- Social */
+
 .social {
   margin-top: 5px;
   margin-left: 40px;
 }
-.social .social-icon{
+
+.social .social-icon {
   width: 25px;
   
 }
@@ -270,6 +285,7 @@ footer p {
 .social .linked-in {
   margin-right: 10px;
 }
+
 .social .facebook {
   margin-left: 10px;
 }
@@ -285,13 +301,11 @@ footer p {
   position: relative;
   top: 245px;
 }
+
 .footer-widget {
   padding-bottom: 20px;
   padding-left: 50px;
 }
-
-/* 005 -- Pages */
-/* 005.1 -- Hero */
 
 /* 005 -- Pages / Posts */
 /* 005.1 -- Hero */
@@ -333,6 +347,13 @@ footer p {
   background-position: cover;
 }
 
+.postid-114 .single-background {
+  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/plastic-material-web.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .postid-173 .single-background {
   background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/product-development-1.jpeg");
   background-repeat: no-repeat;
@@ -361,7 +382,7 @@ footer p {
   
 }
 
-
+.postid-114 .hero-title,
 .postid-173 .hero-title, 
 .postid-172 .hero-title,
 .postid-171 .hero-title,
@@ -400,7 +421,7 @@ footer p {
   text-decoration: none;
 }
 
-.address-link:last-child{
+.address-link:last-child {
   font-weight: 600;
 }
 
@@ -418,7 +439,7 @@ footer p {
   transition: color .5s;
 }
 
-.contact-quote-box .btn-outline:hover{
+.contact-quote-box .btn-outline:hover {
   background-color: #fbb911;
   color: #243949;
   transition: color .5s;
@@ -431,23 +452,28 @@ footer p {
 .contact-general-box .btn-outline {
   border: solid 1px #243949;
   color: #243949;
+  transition: color .5s;
 }
 
 .contact-general-box .btn-outline:hover {
   background-color: #243949;
   color: #fff;
+  transition: color .5s;
 }
 
-.contact-quote-box, .contact-general-box{
+.contact-quote-box, 
+.contact-general-box {
   margin-bottom: 20px;
 }
 
 /*005.4 -- Services & Resources*/
-.service-posts, .resources-posts {
+.service-posts, 
+.resources-posts {
   margin: 20px 0;
 }
 
-.resources-posts .post-thumbnail img, .service-posts .post-thumbnail img{
+.resources-posts .post-thumbnail img, 
+.service-posts .post-thumbnail img {
   display: block;
   margin: auto;
 }
@@ -491,7 +517,7 @@ footer p {
 }
 
 /* 005.5 -- Home Page */
-/*005.1 -- Home  Page General */
+/*005.5.1 -- Home  Page General */
 .video-header {
   margin-bottom: 50px;
 }
@@ -510,7 +536,7 @@ footer p {
   font-weight: 600;
 }
 
-.shopify-summary a:hover{
+.shopify-summary a:hover {
   color: #fbb911;
 }
 
@@ -527,7 +553,7 @@ footer p {
   padding-bottom: 10px;
 } */
 
-.about-section{
+.about-section {
   margin: 50px auto;
 }
 
@@ -552,7 +578,7 @@ footer p {
   margin-bottom: 50px;
 }
 
-.heading-block{
+.heading-block {
   background-color: darkred;
   color: #fff;
   height: 300px;
@@ -579,7 +605,8 @@ footer p {
   box-shadow: 0 4px 8px 0 rbga(0,0,0,0.2);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front, 
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -617,7 +644,7 @@ footer p {
   text-decoration: none;
 }
 
-.flip-link:hover{
+.flip-link:hover {
   color: #FDD278;
 }
 
@@ -653,25 +680,25 @@ footer p {
   transform: rotateY(180deg);
 }
 
-.flip-card-inner .first-service{
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/project-developement-web.jpg');
+.flip-card-inner .first-service {
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/project-developement-web.jpg');
 }
 
-.flip-card-inner .second-service{
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/mold-base-web.jpg');
+.flip-card-inner .second-service {
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/mold-base-web.jpg');
 }
 
-.flip-card-inner .third-service{
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/lathe-cnc-web-gs.jpg');
+.flip-card-inner .third-service {
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/lathe-cnc-web-gs.jpg');
   background-position: left;
 }
 
-.flip-card-inner .fourth-service{
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/prototyping-web.jpg');
+.flip-card-inner .fourth-service {
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/prototyping-web.jpg');
 }
 
 .flip-card-inner .first-resource {
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/black-plastic-polymer-web.jpg');
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/black-plastic-polymer-web.jpg');
 }
 
 /* .flip-card-inner .first-resource h4 {
@@ -679,11 +706,11 @@ footer p {
 } */
 
 .flip-card-inner .second-resource {
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/car-web.jpg');
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/design-parts-web.jpg');
 }
 
 .flip-card-inner .third-resource {
-  background-image: url('http://localhost/flexcim/wp-content/uploads/2021/11/tooling-web.jpg');
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/tooling-web.jpg');
 }
 /* .flip-card-inner .third-resource h4 {
   left: 32%;
@@ -710,11 +737,18 @@ footer p {
   background-color: #fff;
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev, 
+.carousel-control-next {
   color: #000;
 }
 
-.carousel-control-prev:hover, .carousel-control-next:hover {
+.carousel-control-prev:hover, 
+.carousel-control-next:hover {
+  color: #000;
+}
+
+.carousel-control-prev > svg > path,
+.carousel-control-next > svg > path {
   color: #000;
 }
 

@@ -19,12 +19,12 @@
                     <h3>Site Map</h3>
                     <div class="footer-sitemap">
                         <ul>
-                            <li><a href=#">Home</a></li>
-                            <li><a href=#">About</a></li>
-                            <li><a href=#">Services</a></li>
-                            <li><a href="#">Store</a></li>       
-                            <li><a href="#">Resources</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="/flexcim/">Home</a></li>
+                            <li><a href="/flexcim/about/">About</a></li>
+                            <li><a href="/flexcim/services/">Services</a></li>
+                            <li><a href="https://flexcimstore.com/" target="_blank">Store</a></li>       
+                            <li><a href="/flexcim/resources/">Resources</a></li>
+                            <li><a href="/flexcim/contact/">Contact Us</a></li>
                         </ul>
                     </div>
                     </div>
@@ -33,7 +33,7 @@
                     <div class="footer-right">
                         <div class="row">
                             <div class="col-xs-12">
-                                <img class="footer-logo " src="http://localhost/flexcim/wp-content/uploads/2021/08/Flexcim_Logo_vert.png" />
+                                <img class="footer-logo " src="http://localhost/flexcim/wp-content/uploads/2021/08/Flexcim_Logo_vert.png" alt="Vertical Flexcim Logo "/>
                             </div>
                         </div>
                     </div>
