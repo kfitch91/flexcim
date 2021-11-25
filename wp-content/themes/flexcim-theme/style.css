@@ -347,6 +347,19 @@ footer p {
   background-position: cover;
 }
 
+.postid-101 .single-background {
+  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/aluminum-tooling-web.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.postid-112 .single-background {
+  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/design-parts-header-web.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .postid-114 .single-background {
   background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/plastic-material-web.jpg");
   background-repeat: no-repeat;
@@ -381,7 +394,8 @@ footer p {
   background-size: cover;
   
 }
-
+.postid-101 .hero-title,
+.postid-112 .hero-title,
 .postid-114 .hero-title,
 .postid-173 .hero-title, 
 .postid-172 .hero-title,

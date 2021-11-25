@@ -19,6 +19,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link rel="stylesheet" href="https://use.typekit.net/sae8ufw.css">
+        <!-- <link rel="icon" href=".http://localhost/flexcim/wp-content/uploads/2021/11/flexcim-favicon-32x32-png.png" type="image/png" sizes="32x32">
+        <link rel="apple-touch-icon" sizes="180x180" href="http://localhost/flexcim/wp-content/uploads/2021/11/apple-touch-icon.png"> -->
         <?php wp_head(); ?>
     </head>
 
