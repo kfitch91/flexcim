@@ -54,6 +54,10 @@
     font-size: 16px;
   }
 
+  .nav-item a {
+    font-size: 16px;
+  }
+
   .header-logo {
     max-width: 212px;
   }
@@ -157,6 +161,17 @@
   .footer-widget {
     text-align: center;
     padding-left: 0;
+  }
+
+  .postid-170 .single-background,
+  .postid-172 .single-background,
+  .postid-171 .single-background{
+    background-position: center;
+  }
+
+  .postid-101 .single-background,
+  .postid-114 .single-background {
+    background-position: right;
   }
 
   
