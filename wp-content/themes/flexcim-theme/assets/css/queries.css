@@ -18,10 +18,13 @@
   .carousel-item img {
     width: 50%;
   }
-
- 
-
   
+}
+
+@media screen and (max-width: 1399px) and (min-width: 992px) {
+  .form-lab-cols {
+    margin-top: 80px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -31,6 +34,10 @@
   }
   .home-content {
     padding-right: 100px;
+  }
+
+  .flip-card-back-wrap p {
+    text-align: justify;
   }
 
   /* .flip-card-inner .first-service h4 {
@@ -105,6 +112,10 @@
     margin-bottom: 20px;
   }
 
+  .form-lab-cols {
+    margin-top: 50px;
+  }
+
   /* .flip-heading-front {
     left: 40%;
   }
@@ -172,6 +183,10 @@
   .postid-101 .single-background,
   .postid-114 .single-background {
     background-position: right;
+  }
+
+  .flip-card-back-wrap {
+    top: 65px;
   }
 
   

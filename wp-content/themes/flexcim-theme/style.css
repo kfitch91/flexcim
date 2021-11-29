@@ -325,8 +325,9 @@ footer p {
 /* 005.1.1 -- Hero Background */
 
 /*use .page-id-# to call a specific page to add background img*/
+
 .page-id-2 .about-background {
-  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/09/edmonton.jpg");
+  background-image: url("https://www.flexcim.ca/wp-content/uploads/2021/09/edmonton.jpg");
   background-position: center;
 }
 
@@ -338,58 +339,58 @@ footer p {
 }
 
 .page-id-21 .services-background {
-  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/services-banner-web-gs.jpg");
+  background-image: url("https://www.flexcim.ca/wp-content/uploads/2021/11/services-banner-web-gs.jpg");
   background-position: center;
 }
 
 .page-id-39 .resources-background {
-  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/library-web-gs.jpg");
+  background-image: url("https://www.flexcim.ca/wp-content/uploads/2021/11/library-web-gs.jpg");
   background-position: cover;
 }
 
 .postid-101 .single-background {
-  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/aluminum-tooling-web.jpg");
+  background-image: url("https://www.flexcim.ca/wp-content/uploads/2021/11/aluminum-tooling-web.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .postid-112 .single-background {
-  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/design-parts-header-web.jpg");
+  background-image: url("https://www.flexcim.ca/wp-content/uploads/2021/11/design-parts-header-web.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .postid-114 .single-background {
-  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/plastic-material-web.jpg");
+  background-image: url("https://www.flexcim.ca/wp-content/uploads/2021/11/plastic-material-web.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .postid-173 .single-background {
-  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/product-development-1.jpeg");
+  background-image: url("https://www.flexcim.ca/wp-content/uploads/2021/11/product-development-1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   
 }
 
 .postid-172 .single-background {
-  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/injection-molding-web.jpg");
+  background-image: url("https://www.flexcim.ca/wp-content/uploads/2021/11/injection-molding-web.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   
 }
 
 .postid-171 .single-background {
-  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/CNC-Lathe-web.jpg");
+  background-image: url("https://www.flexcim.ca/wp-content/uploads/2021/11/CNC-Lathe-web.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   
 }
 
 .postid-170 .single-background {
-  background-image: url("http://localhost/flexcim/wp-content/uploads/2021/11/prototyping-2-web.jpg");
+  background-image: url("https://www.flexcim.ca/wp-content/uploads/2021/11/prototyping-2-web.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -405,6 +406,65 @@ footer p {
   text-shadow: 3px 3px #363636;
 }
 
+/* figure tags in posts */
+.form-lab-cols {
+  margin-top: 150px;
+}
+
+.printer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.printer img {
+  width: 350px;
+  height: auto;
+}
+
+.printer figcaption {
+  text-align: center;
+  font-size: 15px;
+}
+
+.parting-line, .gates {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parting-line figcaption,
+.gates figcaption {
+  font-size: 15px;
+  text-align: center;
+}
+
+.parting-line img,
+.gates img {
+  width: 200px;
+  height: auto;
+}
+
+.draft,
+.undercut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.draft img,
+.undercut img {
+  width: 200px;
+  height: auto;
+}
+
+.draft figcaption,
+.undercut figcaption {
+  text-align: center;
+  font-size: 15px;
+}
+
 /* 005.2 -- Page Content */
 
 .page-content {
@@ -414,6 +474,23 @@ footer p {
 .about-image {
   padding-right: 20px;
   width: 500px;
+}
+
+.about-text-wrap a {
+  font-weight: 600;
+}
+
+.postid-172 .single-text-wrap p {
+  display: flex;
+}
+
+.single-text-wrap a {
+  font-weight: 600;
+}
+
+.single-text-wrap ul {
+  display: flex;
+  flex-direction: column;
 }
 
 /* 005.3 -- Contact Page */
@@ -665,10 +742,16 @@ footer p {
 .flip-card-back-wrap {
   margin: 50px auto;
   position: absolute;
-  top: 100px;
+  top: 65px;
 }
 
-.flip-card-service {
+.flip-card-back-wrap p {
+  /* text-align: justify; */
+  padding: 0 10px;
+}
+
+.flip-card-service,
+.flip-card-resource {
   background-color: transparent;
   height: 500px;
   perspective: 1000px;
@@ -677,59 +760,44 @@ footer p {
   /* margin: 20px; */
 }
 
-.flip-card-service:hover .flip-card-inner {
+.flip-card-service:hover .flip-card-inner,
+.flip-card-resource:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.flip-card-resource {
-  background-color: transparent;
-  height: 500px;
-  perspective: 1000px;
-  /* width: 100%; */
-  /* margin-bottom: 20px; */
-  /* margin: 20px; */
-}
 
 .flip-card-resource:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
 .flip-card-inner .first-service {
-  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/project-developement-web.jpg');
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('https://www.flexcim.ca/wp-content/uploads/2021/11/project-developement-web.jpg');
 }
 
 .flip-card-inner .second-service {
-  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/mold-base-web.jpg');
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('https://www.flexcim.ca/wp-content/uploads/2021/11/mold-base-web.jpg');
 }
 
 .flip-card-inner .third-service {
-  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/lathe-cnc-web-gs.jpg');
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('https://www.flexcim.ca/wp-content/uploads/2021/11/lathe-cnc-web-gs.jpg');
   background-position: left;
 }
 
 .flip-card-inner .fourth-service {
-  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/prototyping-web.jpg');
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('https://www.flexcim.ca/wp-content/uploads/2021/11/prototyping-web.jpg');
 }
 
 .flip-card-inner .first-resource {
-  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/black-plastic-polymer-web.jpg');
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('https://www.flexcim.ca/wp-content/uploads/2021/11/black-plastic-polymer-web.jpg');
 }
 
-/* .flip-card-inner .first-resource h4 {
-  left: 24%;
-} */
-
 .flip-card-inner .second-resource {
-  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/design-parts-web.jpg');
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('https://www.flexcim.ca/wp-content/uploads/2021/11/design-parts-web.jpg');
 }
 
 .flip-card-inner .third-resource {
-  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('http://localhost/flexcim/wp-content/uploads/2021/11/tooling-web.jpg');
+  background-image: linear-gradient(0deg, rgba(88, 104, 118, 0.3), rgba(88, 104, 118, 0.3)), url('https://www.flexcim.ca/wp-content/uploads/2021/11/tooling-web.jpg');
 }
-/* .flip-card-inner .third-resource h4 {
-  left: 32%;
-} */
-
 
 /* end of w3 flip */
 

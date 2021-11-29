@@ -15,11 +15,12 @@ get_header()
             </div>
             <div class="col-lg-6 col-md-12">
                 
-                <img class="about-home-img" src="http://localhost/flexcim/wp-content/uploads/2021/11/IMG_21361-web.jpg" alt="Flexcim Group Photo">
+                <img class="about-home-img" src="https://www.flexcim.ca/wp-content/uploads/2021/11/IMG_21361-web.jpg" alt="Flexcim Group Photo">
             </div>
             <div class="col-lg-6 col-md-12 home-content">
-                <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan. Coloring book pok pok hexagon pork belly cardigan celiac artisan pinterest brunch single-origin coffee humblebrag pabst unicorn. Asymmetrical drinking vinegar hashtag cronut readymade polaroid lyft DIY ennui. Everyday carry pour-over williamsburg fam, heirloom cronut disrupt unicorn pitchfork banh mi. Fam raclette biodiesel, leggings man bun edison bulb shabby chic. Authentic mlkshk gluten-free cold-pressed typewriter echo park bushwick truffaut mustache four loko viral chillwave poke.</p>
-                <p><a href="/flexcim/about/" class="excerpt-link">Learn More</a>
+            <p>Flexcim Manufacturing Services Inc. is a diverse Canadian manufacturing company located in Edmonton, Canada. Our mission is to reverse the trend towards offshoring and repatriate production into Canada.</p>
+            <p>All of our products are proudly made in Canada. We work within the community and source the majority of our supplies and materials locally. As a result, we have a good relationship with many local businesses. Our relationships with customers are vertically integrated into our manufacturing process. Orders are immediately shipped from stock and replenished based on the “Supermarket” model in lean manufacturing.</p>
+                <p><a href="/about/" class="excerpt-link">Learn More</a></p>
             </div>
         </div>
     </div>
@@ -39,9 +40,9 @@ get_header()
                         <div class="flip-card-back">
                             <div class="flip-card-back-wrap">
                                 <h4 class="flip-heading-back">Product Development</h4>
-                                <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
+                                <p>If you have a product to develop or an idea to make real, Flexcim is the manufacturer you want on your side. Our technical team prides itself in our pledge of, “Problem Solving in a Day.” </p>
 
-                                <p><a href="/flexcim/services/product-development/" class="flip-link">Learn More...</a>
+                                <p><a href="/services/product-development/" class="flip-link">Learn More...</a></p>
                             </div>
                         </div>
                     </div>
@@ -56,9 +57,9 @@ get_header()
                         <div class="flip-card-back">
                             <div class="flip-card-back-wrap">
                                 <h4 class="flip-heading-back">Injection Molding</h4>
-                                <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
+                                <p>Despite continuing advancements in 3D-printing technology, injection molding continues to be the more efficient and cost-effective method of mass-producing plastic parts. With over 35 years experience in injection molding and mold design, Flexcim is well-equipped to shoot your plastic project into existence.</p>
 
-                                <p><a href="/flexcim/services/injection-molding/" class="flip-link">Learn More...</a>
+                                <p><a href="/services/injection-molding/" class="flip-link">Learn More...</a></p>
                             </div>
                         </div>
                     </div>
@@ -75,9 +76,9 @@ get_header()
                         <div class="flip-card-back">
                             <div class="flip-card-back-wrap">
                                 <h4 class="flip-heading-back">CNC Machining</h4>
-                                <p>I'm baby activated charcoal kogi gochujang pinterest flannel next level whatever. Umami skateboard chambray tacos, celiac woke migas stumptown marfa heirloom gentrify semiotics ethical artisan.</p>
+                                <p>Flexcim Manufacturing Services Inc. offers CNC machining for both production and prototype fabrication. With experience in challenging to cut materials, we can modify pre-made parts, or machine bespoke parts or full assembles from concept design. </p>
 
-                                <p><a href="/flexcim/services/cnc-machining/" class="flip-link">Learn More...</a>
+                                <p><a href="/services/cnc-machining/" class="flip-link">Learn More...</a></p>
                             </div>
                         </div>
                     </div>
@@ -92,9 +93,9 @@ get_header()
                         <div class="flip-card-back">
                             <div class="flip-card-back-wrap">
                                 <h4 class="flip-heading-back">Prototyping</h4>
-                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                <p>Flexcim’s vast experience in the industry has yielded a wealth of knowledge in many manufacturing methods, giving us a creative advantage in both traditional and rapid prototyping methods.</p>
 
-                                <p><a href="/flexcim/services/prototyping/" class="flip-link">Learn More...</a>
+                                <p><a href="/services/prototyping/" class="flip-link">Learn More...</a></p>
                             </div>
                         </div>
                     </div>
@@ -128,21 +129,21 @@ get_header()
                     
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="#" class="carousel-link"><img src="http://localhost/flexcim/wp-content/uploads/2021/11/aluminum-mold-base-web.jpg" alt="Flexcim Aluminum Mold Base" class="d-block" ></a>
+                            <a href="#" class="carousel-link"><img src="https://www.flexcim.ca/wp-content/uploads/2021/11/aluminum-mold-base-web.jpg" alt="Flexcim Aluminum Mold Base" class="d-block" ></a>
                             <div class="carousel-caption">
                                 <h3>Mold Bases</h3>
                                 
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="#" class="carousel-link"><img src="http://localhost/flexcim/wp-content/uploads/2021/11/Face-shield-web.jpg" alt="Flexcim Protective Face Shield" class="d-block" ></a>
+                            <a href="#" class="carousel-link"><img src="https://www.flexcim.ca/wp-content/uploads/2021/11/Face-shield-web.jpg" alt="Flexcim Protective Face Shield" class="d-block" ></a>
                             <div class="carousel-caption">
                                 <h3>PPE</h3>
                                 
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="#" class="carousel-link"><img src="http://localhost/flexcim/wp-content/uploads/2021/11/soft-jaw-web.jpg" alt="Flexcim Soft Jaw" class="d-block" ></a>
+                            <a href="#" class="carousel-link"><img src="https://flexcim.ca/wp-content/uploads/2021/11/soft-jaw-web.jpg" alt="Flexcim Soft Jaw" class="d-block" ></a>
                             <div class="carousel-caption">
                                 <h3>Machine Shop Supplies</h3>
                                 
@@ -178,16 +179,16 @@ get_header()
                         <div class="flip-card-back">
                             <div class="flip-card-back-wrap">
                                 <h4 class="flip-heading-back">Plastic Materials</h4>
-                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                <p>Material is a very important design consideration. It may come as a surprise to find out that there is more than one type of plastic – and for each type of plastic there are many grades and additives that affect the materials properties.</p>
 
-                                <p><a href="/flexcim/resources/plastic-materials/" class="flip-link">Learn More...</a>
+                                <p><a href="/resources/plastic-materials/" class="flip-link">Learn More...</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-12">
-                <div class="flip-card-service">
+                <div class="flip-card-resource">
                     <div class="flip-card-inner">
                         <div class="flip-card-front second-resource">
                             <h4 class="flip-heading-front ">Designing Parts for Injection Molding</h4>
@@ -195,16 +196,16 @@ get_header()
                         <div class="flip-card-back">
                             <div class="flip-card-back-wrap">
                                 <h4 class="flip-heading-back">Designing Parts for Injection Molding</h4>
-                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                <p>Before a mold is designed to produce an injection molded part, there are various design concepts to consider for a part to be molded properly and efficiently. This section will discuss some of these design considerations and their purposes, empowering you to design parts that require fewer iterations.</p>
 
-                                <p><a href="/flexcim/resources/plastic-parts-design/" class="flip-link">Learn More...</a>
+                                <p><a href="/resources/plastic-parts-design/" class="flip-link">Learn More...</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-12">
-                <div class="flip-card-service">
+                <div class="flip-card-resource">
                     <div class="flip-card-inner">
                         <div class="flip-card-front third-resource">
                             <h4 class="flip-heading-front ">Tooling Materials</h4>
@@ -212,9 +213,9 @@ get_header()
                         <div class="flip-card-back">
                             <div class="flip-card-back-wrap">
                                 <h4 class="flip-heading-back">Tooling Materials</h4>
-                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                <p>After a part has been designed or modified for injection mold manufacturing, the design of the mold tooling should be considered, specifically the material the mold will be made of. Below are a few common mold tooling materials and an overview of the benefits and drawbacks of each.</p>
 
-                                <p><a href="/flexcim/resources/tooling-materials/" class="flip-link">Learn More...</a>
+                                <p><a href="/resources/tooling-materials/" class="flip-link">Learn More...</a></p>
                             </div>
                         </div>
                     </div>
